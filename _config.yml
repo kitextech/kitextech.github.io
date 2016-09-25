@@ -1,0 +1,7 @@
+# Setup
+title:        KiteX
+tagline:      KiteX wind energy kites project
+baseurl:      ""
+
+#Others
+markdown: kramdown
