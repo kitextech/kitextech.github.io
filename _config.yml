@@ -1,7 +1,6 @@
 # Setup
 title:        KiteX
-tagline:      KiteX wind energy kites project
-baseurl:      ""
+tagline:      Making energy more accessable and sustainable
 
 #Others
 markdown: kramdown
