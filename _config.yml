@@ -4,3 +4,5 @@ tagline:      Making energy more accessable and sustainable
 
 #Others
 markdown: kramdown
+
+permalink: /:categories/:title/
