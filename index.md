@@ -17,7 +17,7 @@ The energy that you can extract from the wind is largely related with the swept 
 
 Two further advantages of the kite system is that it can more easily capture wind at higher altitudes where the wind is more consistent, delivering the rated output a higher degree of the time. This will become especially important as a larger portion of the locally generated energy is from "unreliable" sources. Since the bending moment on the foundation of a kite mill is small to non-existent it will be much easier to setup these kite system in offshore conditions.
 
-From a technical perspective it would have been possible to make such a kite ever since the invention of the computer, but right now we are getting to a point in time where advances in materials and computer technology make is a viable and cheaper options.
+From a technical perspective it would have been possible to make such a kite ever since the invention of the computer, but right now we are getting to a point in time where advances in materials and computer technology make it a viable and cheaper option.
 
 ## What is the purpose of KiteX
 We would like to promote and carry out the development of kite technology in order to create a future with cheaper and only renewable energy. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard freeing up time to pursue more interesting exercises. We find the reflections in these answers quite interesting: [Quora - if energy was  free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
