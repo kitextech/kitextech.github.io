@@ -46,12 +46,12 @@ I have worked as a management consultant at Oliver Wyman, helped launch a small 
 ![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
 
 ### Heading in the same direction?
-Do you share the same vision for a the kite powered future? Get in touch!
+Do you share our vision for a the kite powered future? Get in touch!
 
 # What's next?
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
-1. Create an autonomous flying kite (**Achieved**)
+1. Create an autonomously flying kite (**Achieved**)
 2. Create a tethered drone that can take off and land autonomously
 3. Combine 1 and 2 into a completely autonomous kite
 4. Add energy generation
@@ -64,9 +64,9 @@ Our path towards commercially viable kite energy is designed with the philosophy
 * Diehl, Moritz. "Airborne wind energy: Basic concepts and physical foundations." Airborne Wind Energy. Springer Berlin Heidelberg, 2013. 3-22. [link](http://homes.esat.kuleuven.be/~highwind/wp-content/uploads/2013/08/Diehl2013a.pdf)
 * Giesbrecht, J., et al. "Path tracking for unmanned ground vehicle navigation." DRDC Suffield TM 224 (2005). [link](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc45/p524913.pdf)
 
-# Competing companies
+# Competitive landscape
 
-While there are currently 100+ organisations involved in airborne wind energy [reference](http://energykitesystems.net/AWEstakeholders/index.html) in varying fields and stages, three companies stand out:
+While there are currently 100+ organisations involved in airborne wind energy [reference](http://energykitesystems.net/AWEstakeholders/index.html) in varying fields and stages, three companies in particular stand out:
 * Makani. Founded in 2006. Developing a hard wing with mounted generators and engines for control and power generation. Should be starting a trial with a 600 kW version in Hawaii very soon. Investment in 2006 and 2008 of a combined of 15 million USD [ref](http://www.itechpost.com/articles/9658/20130523/google-x-makani-power-make-traditional-wind-energy-obsolete.htm). [website](https://www.google.com/makani/). [wikipedia](https://en.wikipedia.org/wiki/Makani_Power).  
-* Ampyx power. Founded in 2008. Developing a hard wing, sailplane line, kite with ground based generator. Total investment of at least 4.5 million euro [reference](https://www.ampyxpower.com/partners). [website](https://www.ampyxpower.com).
+* Ampyx Power. Founded in 2008. Developing a hard wing, sailplane line, kite with ground based generator. Total investment of at least 4.5 million euro [reference](https://www.ampyxpower.com/partners). [website](https://www.ampyxpower.com).
 * SkySails. Founded in 2001. Developing a soft kite with ground based generator. Has experience from developing a 300 m2 kite for pulling cargo ships. Investment in research in kite related activities to date 50 million euros [ref](http://www.skysails.info/english/power/development/). [website](http://www.skysails.info/).
