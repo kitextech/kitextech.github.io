@@ -43,6 +43,8 @@ An avid kitesurfer of 8 years, my educational background is in pure and applied 
 
 I have worked as a management consultant at Oliver Wyman, helped launch a small but very successful compensation consultancy, advised startups in industries ranging from construction innovations to mineral prospecting and for the last 5 years I have also been developing software, most notably for Vaavud, mentioned above, and Realm.
 
+![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
+
 ### Heading in the same direction?
 Do you share the same vision for a the kite powered future? Get in touch!
 
