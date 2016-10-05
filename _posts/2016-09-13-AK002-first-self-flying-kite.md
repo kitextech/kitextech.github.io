@@ -5,9 +5,9 @@ category: prototypes
 
 
 ### Autonomous Kite 002 **[Video clip](https://youtu.be/O_YaRTxpii8)**
-On September the 13th, 2016 I (Andreas Okholm) managed to carry out the first successful autonomous flight - Check out the video link above!
+On September the 13th, 2016 we managed to carry out the first successful autonomous flight - Check out the video link above.
 
-Overall the system consists of a kite, a motorized kite steering system, a laptop for control and a smartphone for video tracking.
+The system consists of a kite, a motorized kite steering system, a laptop for control and a smartphone for video tracking.
 ![Image of AK002 Setup]({{ site.github.url }}/images/AK002Setup.jpg)
 
 **Significant mechanical parts:**
