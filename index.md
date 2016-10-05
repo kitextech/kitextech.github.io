@@ -31,6 +31,9 @@ I have a mixed design, mechanical and aerospace degree from the Technical Univer
 
 I have for a long time been fascinated by the power of kites, and been using them for surfing for the past 10+ years. Being able to work with kites is really fascinating and I find that it allows me to use most of my toolset: mechanics, aerodynamics, programming, startups and most importantly it gives a feeling of making a positive impact.
 
+### Gustaf Kugelberg
+
+
 ![Wind meter testing in Norway]({{ site.github.url }}/images/AndreasNorway.jpg)
 
 ### Heading in the same direction?
