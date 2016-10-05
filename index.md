@@ -39,7 +39,7 @@ I have for a long time been fascinated by the power of kites, and been using the
 
 ### Gustaf Kugelberg
 
-An avid kitesurfer of 8 years, my educational background is in pure and applied mathematics, with a touch of liberal arts -- I took a M Sc in technical physics, and studied mathematics, Archaeology, Greek, Latin, Russian and Japanese on the side.
+An avid kitesurfer since 8 years, my educational background is in pure and applied mathematics, with a touch of liberal arts -- I took a M. Sc. Eng. in technical physics, and studied mathematics, Archaeology, Greek, Latin, Russian and Japanese on the side.
 
 I have worked as a management consultant at Oliver Wyman, helped launch a small but very successful compensation consultancy, advised startups in industries ranging from construction innovations to mineral prospecting and for the last 5 years I have also been developing software, most notably for Vaavud, mentioned above, and Realm.
 
@@ -57,7 +57,7 @@ Our path towards commercially viable kite energy is designed with the philosophy
 4. Add energy generation
 5. Scale it up to commercially viable proportions
 
-# Cool (Relevant) Articles for Kite Energy
+# Articles on Kite Energy
 
 * M.L. LOYD.  "Crosswind kite power (for large-scale wind power production)" Journal of Energy, Vol. 4, No. 3 (1980), pp. 106-111.
 [link](http://edge.rit.edu/content/R15901/public/Matt%20Kennedy/homes.esat.kuleuven.be_~highwind_wp-content_uploads_2011_07_Loyd1980.pdf))
