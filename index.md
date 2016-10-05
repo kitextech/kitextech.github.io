@@ -9,9 +9,11 @@ title: {{ site.name }}
 ![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
 ## Why is Kite Energy interesting?
-Traditional wind mills is often the preferred solutions when creating new power plants due their low price per watt and environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy.**
+Traditional wind mills are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
-The energy that you can extract from the wind is largely related with the swept area of the wind turbine. A kite is able to sweep a given area with a much smaller system than a traditional turbine. A tether to the ground can replaces most of the *previously* necessary support structure, the inner parts of the wings, the tower and foundation. Makani, the currently leading commercial kite energy project,  estimates that their kite system can deliver approximately **10 times the energy per weight** of a traditional wind turbine.
+The energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using large kite tethered to the ground you can cover the same swept area as the wings of a traditional windmill using a significantly ligther support structre. The tether replaces most of the tower and foundation, as well as the inner part of the wing (which captures very little energy).
+
+A kite is able to sweep a given area with a much smaller system than a traditional turbine. A tether to the ground can replaces most of the *previously* necessary support structure, the inner parts of the wings, the tower and foundation. Makani, the currently leading commercial kite energy project,  estimates that their kite system can deliver approximately **10 times the energy per weight** of a traditional wind turbine.
 
 ![Kite Energy Concept]({{ site.github.url }}/images/KiteEnergyConcept.jpg)
 
@@ -31,10 +33,9 @@ I have a mixed design, mechanical and aerospace degree from the Technical Univer
 
 I have for a long time been fascinated by the power of kites, and been using them for surfing for the past 10+ years. Being able to work with kites is really fascinating and I find that it allows me to use most of my toolset: mechanics, aerodynamics, programming, startups and most importantly it gives a feeling of making a positive impact.
 
-### Gustaf Kugelberg
-
-
 ![Wind meter testing in Norway]({{ site.github.url }}/images/AndreasNorway.jpg)
+
+### Gustaf Kugelberg
 
 ### Heading in the same direction?
 Do you share the same vision for a the kite future? get in contact! :)
