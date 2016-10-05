@@ -17,7 +17,7 @@ Makani, the currently leading commercial kite energy project, estimates that the
 
 ![Kite Energy Concept]({{ site.github.url }}/images/KiteEnergyConcept.jpg)
 
-Another advantages of the kite system is that it can more easily capture wind at higher altitudes where the wind is more consistent, delivering a given power output with less downtime. This will become especially important as a larger proportion of the locally generated energy is from non-constant sources such as wind and solar power. 
+Another advantages of the kite system is that it can more easily capture wind at higher altitudes where the wind is more consistent, delivering a given power output with less downtime. This will become especially important as a larger proportion of the locally generated energy is from non-constant sources such as wind and solar power.
 
 Furthermore, since the bending moment on the foundation of a kite mill is small to non-existent it is much easier to install kite based systems in offshore conditions.
 
@@ -44,6 +44,14 @@ An avid kitesurfer since 8 years, my educational background is in pure and appli
 I have worked as a management consultant at Oliver Wyman, helped launch a small but very successful compensation consultancy, advised startups in industries ranging from construction innovations to mineral prospecting and for the last 5 years I have also been developing software, most notably for Vaavud, mentioned above, and Realm.
 
 ![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
+
+### Maria Koerner Nissen
+
+I hold a B. Sc in economics from Copenhagen Business School and has used my knowledge to help build Vaavud from scratch and 4 years on, mainly handling financial planning. To get a deeper understanding of software I took a M. Sc. in Software Development and Technology with a specialization in Business Analytics.
+
+At the age of 13 I started gliding and hold a glider pilot certificate. For the past 5 years I have been kitesurfing with Andreas.
+
+![Maria kitesurfing, Denmark]({{ site.github.url }}/images/MariaKitesurfing.jpg)
 
 ### Heading in the same direction?
 Do you share our vision for a the kite powered future? Get in touch!
