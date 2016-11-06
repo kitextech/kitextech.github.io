@@ -4,7 +4,10 @@ title: {{ site.name }}
 ---
 
 # KiteX Project Overview
-**Quick Status:** On September 13th we succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
+**Quick Status:**
+On November 1st we succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+
+On September 13th we succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
 
 ![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
