@@ -34,7 +34,7 @@ In order to promote this future the company KiteX will be focusing on research a
 ## Who are We?
 
 ### Andreas Bruun Okholm
-I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
+I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
 
 I have for a long time been fascinated by the power of kites, and been using them for surfing for the past 10+ years. Being able to work with kites is really fascinating and I find that it allows me to make use of most of my toolset: mechanical engineering, aerodynamics, programming, startups and most importantly it gives a feeling of making a positive impact.
 
@@ -48,16 +48,18 @@ I have worked as a management consultant at Oliver Wyman, helped launch a small 
 
 ![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
 
-### Maria Koerner Nissen
+## Key Advisors
 
-I hold a B. Sc in economics from Copenhagen Business School and has used my knowledge to help build Vaavud from scratch and 4 years on, mainly handling financial planning. To get a deeper understanding of software I took a M. Sc. in Software Development and Technology with a specialization in Business Analytics.
+### Mac Gaunaa
+Mac Gaunaa is a senior researcher at Technical University of Denmark department of Wind Energy working with wind turbine aerodynamics and aeroelasticity. Mac has a PhD in fluid mechanics, has 19 years of experience with fluid dynamics and aerodynamics, and is one of a few researchers in Denmark with experience in aerodynamics and performance modeling of energy kite systems.
 
-At the age of 13 I started gliding and hold a glider pilot certificate. For the past 5 years I have been kitesurfing with Andreas.
+### Marc Münzer
+Marc has over 10 years of experience working with intellectual property. Further Mark has PhD in electromechanical systems design and a background in fluid mechanics.
 
-![Maria kitesurfing, Denmark]({{ site.github.url }}/images/MariaKitesurfing.jpg)
 
-### Heading in the same direction?
+## Heading in the same direction?
 Do you share our vision for a the kite powered future? Get in touch!
+
 
 # What's next?
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
