@@ -56,6 +56,8 @@ Mac Gaunaa is a senior researcher at Technical University of Denmark department 
 ### Marc Münzer
 Marc has over 10 years of experience working with intellectual property. Further Marc has PhD in electromechanical systems design and a background in fluid mechanics.
 
+### Rolf Østergaard
+With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
 ## Heading in the same direction?
 Do you share our vision for a the kite powered future? Get in touch!
