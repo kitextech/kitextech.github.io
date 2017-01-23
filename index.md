@@ -54,7 +54,7 @@ I have worked as a management consultant at Oliver Wyman, helped launch a small 
 Mac Gaunaa is a senior researcher at Technical University of Denmark department of Wind Energy working with wind turbine aerodynamics and aeroelasticity. Mac has a PhD in fluid mechanics, has 19 years of experience with fluid dynamics and aerodynamics, and is one of a few researchers in Denmark with experience in aerodynamics and performance modeling of energy kite systems.
 
 ### Marc Münzer
-Marc has over 10 years of experience working with intellectual property. Further Mark has PhD in electromechanical systems design and a background in fluid mechanics.
+Marc has over 10 years of experience working with intellectual property. Further Marc has PhD in electromechanical systems design and a background in fluid mechanics.
 
 
 ## Heading in the same direction?
