@@ -4,9 +4,11 @@ title: {{ site.name }}
 ---
 
 **Quick Status:**
-On November 1st we succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+January 24th: Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.   
 
-On September 13th we succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
+November 1st: We succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+
+September 13th: We succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
 
 ![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
@@ -25,12 +27,12 @@ Furthermore, since the bending moment on the foundation of a kite mill is small 
 
 While kites have been used to harness the power of the wind for utilitarian purposes since ancient times (lifting men, pulling cargo etc) wind power stations using kites are only appearing now. This is due in large part to the fact that they, especially the most efficient variants, require relatively sophisticated computer control systems. The dramatic fall in the cost of computing power makes kite energy a much more viable approach than just a decade ago. Combined with recent strides in materials technology makes this a very exciting and rewarding time to develop kite energy.
 
-## Our Purpose
+## Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
 
-## Our Team
+## Team
 
 ### Andreas Bruun Okholm
 I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
@@ -64,7 +66,7 @@ Marc has over 10 years of experience working with intellectual property. Further
 With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
 
-# Progress
+## Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
 1. Create an autonomously flying kite (**Achieved**)
@@ -74,14 +76,14 @@ Our path towards commercially viable kite energy is designed with the philosophy
 5. Add energy generation
 6. Scale it up to commercially viable proportions
 
-# Articles on Kite Energy
+## Articles on Kite Energy
 
 * M.L. LOYD.  "Crosswind kite power (for large-scale wind power production)" Journal of Energy, Vol. 4, No. 3 (1980), pp. 106-111.
 [link](http://edge.rit.edu/content/R15901/public/Matt%20Kennedy/homes.esat.kuleuven.be_~highwind_wp-content_uploads_2011_07_Loyd1980.pdf))
 * Diehl, Moritz. "Airborne wind energy: Basic concepts and physical foundations." Airborne Wind Energy. Springer Berlin Heidelberg, 2013. 3-22. [link](http://homes.esat.kuleuven.be/~highwind/wp-content/uploads/2013/08/Diehl2013a.pdf)
 * Giesbrecht, J., et al. "Path tracking for unmanned ground vehicle navigation." DRDC Suffield TM 224 (2005). [link](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc45/p524913.pdf)
 
-# Competitive landscape
+## Competitive landscape
 
 While there are currently 100+ organisations involved in airborne wind energy [reference](http://energykitesystems.net/AWEstakeholders/index.html) in varying fields and stages, few have reached commercial viability. These three companies in particular stand out:
 
