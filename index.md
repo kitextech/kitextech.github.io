@@ -3,7 +3,6 @@ layout: default
 title: {{ site.name }}
 ---
 
-# KiteX Project Overview
 **Quick Status:**
 On November 1st we succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
 
@@ -11,7 +10,7 @@ On September 13th we succeeded in creating a autonomous flying kite. [detailed d
 
 ![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
-## Why is Kite Energy interesting?
+## The future of wind energy
 Traditional wind mills are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
 The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional windmill using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
@@ -26,12 +25,12 @@ Furthermore, since the bending moment on the foundation of a kite mill is small 
 
 While kites have been used to harness the power of the wind for utilitarian purposes since ancient times (lifting men, pulling cargo etc) wind power stations using kites are only appearing now. This is due in large part to the fact that they, especially the most efficient variants, require relatively sophisticated computer control systems. The dramatic fall in the cost of computing power makes kite energy a much more viable approach than just a decade ago. Combined with recent strides in materials technology makes this a very exciting and rewarding time to develop kite energy.
 
-## What is the purpose of KiteX
+## Our Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
 
-## Who are We?
+## Our Team
 
 ### Andreas Bruun Okholm
 I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
@@ -48,6 +47,11 @@ I have worked as a management consultant at Oliver Wyman, helped launch a small 
 
 ![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
 
+
+### Want to team up?
+Do you share our vision for a the kite powered future? Get in touch!
+
+
 ## Key Advisors
 
 ### Mac Gaunaa
@@ -59,18 +63,16 @@ Marc has over 10 years of experience working with intellectual property. Further
 ### Rolf Østergaard
 With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
-## Heading in the same direction?
-Do you share our vision for a the kite powered future? Get in touch!
 
-
-# What's next?
+# Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
 1. Create an autonomously flying kite (**Achieved**)
-2. Create a tethered drone that can take off and land autonomously
-3. Combine 1 and 2 into a completely autonomous kite
-4. Add energy generation
-5. Scale it up to commercially viable proportions
+2. Create a fixed wing flying kite (**Achieved**)
+3. Create a tethered drone that can take off and land autonomously ((**Work in progress**)
+4. Combine 2 and 3 into a completely autonomous kite
+5. Add energy generation
+6. Scale it up to commercially viable proportions
 
 # Articles on Kite Energy
 
