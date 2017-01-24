@@ -53,10 +53,11 @@ a {
   color: #610699;
   text-align: center;
   background: #FFF url("/graphics/tiny_grid.png") repeat right top;
+  border-bottom: thick solid #610699;
 }
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 5rem 6rem; } }
+      padding: 4rem 6rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
       padding: 3rem 4rem; } }

@@ -3,12 +3,13 @@ layout: default
 title: {{ site.name }}
 ---
 
-**Quick Status:**
-January 24th: Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.   
+### Quick Status
 
-November 1st: We succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+**January 24th** Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.   
 
-September 13th: We succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
+**November 1st** We succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+
+**September 13th** We succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
 
 ![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
