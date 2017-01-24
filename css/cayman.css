@@ -50,10 +50,10 @@ a {
         margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #610699;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background: #FFF url("/graphics/tiny_grid.png") repeat right top;
+}
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 5rem 6rem; } }
@@ -114,7 +114,10 @@ a {
       padding: 2rem 1rem;
       font-size: 1rem; } }
   .main-content img {
-    max-width: 100%; }
+    max-width: 100%;
+    display: block;
+    margin: auto;
+   }
   .main-content h1,
   .main-content h2,
   .main-content h3,
@@ -124,7 +127,12 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957; }
+    color: #610699; }
+  .main-content h1,
+  .main-content h2 {
+    border-bottom: medium solid #610699;
+  }
+
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
