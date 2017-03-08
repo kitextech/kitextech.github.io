@@ -5,9 +5,14 @@ title: {{ site.name }}
 
 ### Quick Status
 
+**Marts 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are not working on optimising the flight control software before we take it out for outdoor testing.
+![Gif of AK004SuperQ flying indoor]({{ site.github.url }}/images/AK004TetheredIndoor.gif)
+
 **January 24th** Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.   
 
 **November 1st** We succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
+
+![Gif of AK003 fixed wing flying]({{ site.github.url }}/images/AK003FixedWing.gif)
 
 **September 13th** We succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
 
@@ -33,7 +38,7 @@ We will be promoting and developing kite technology in order to create a future 
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
 
-## Team
+## <a name="team"></a>Team
 
 ### Andreas Bruun Okholm
 I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
@@ -67,7 +72,7 @@ Marc has over 10 years of experience working with intellectual property. Further
 With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
 
-## Progress
+## <a name="progress"></a>Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
 1. Create an autonomously flying kite (**Achieved**)
@@ -91,3 +96,19 @@ While there are currently 100+ organisations involved in airborne wind energy [r
 * Makani. Founded in 2006. Developing a hard wing with mounted generators and engines for control and power generation. Should be starting a trial with a 600 kW version in Hawaii very soon. Investment in 2006 and 2008 of a combined of 15 million USD [reference](http://www.itechpost.com/articles/9658/20130523/google-x-makani-power-make-traditional-wind-energy-obsolete.htm). [website](https://www.google.com/makani/). [wikipedia](https://en.wikipedia.org/wiki/Makani_Power).  
 * Ampyx Power. Founded in 2008. Developing a hard wing, sailplane line, kite with ground based generator. Total investment of at least 4.5 million euro [reference](https://www.ampyxpower.com/partners). [website](https://www.ampyxpower.com).
 * SkySails. Founded in 2001. Developing a soft kite with ground based generator. Has experience from developing a 300 m2 kite for pulling cargo ships. Investment in research in kite related activities to date 50 million euros [reference](http://www.skysails.info/english/power/development/). [website](http://www.skysails.info/).
+
+
+## <a name="contact"></a>Contact
+![Office, Founders House Copenhagen]({{ site.github.url }}/images/OfficePanorama.jpg)
+
+**Address:**
+
+```
+KiteX c/o Founders House
+Njalsgade 21G, 7th floor,
+2300 Copenhagen S
+```
+
+| Company Name  | KiteX IVS |
+| CVR | DK38029126 |
+| mail |  andreas at kitex.tech |
