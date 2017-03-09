@@ -36,7 +36,7 @@ We will be promoting and developing kite technology in order to create a future 
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
 
-## <a name="team" class="anchor"></a>Team
+## <a name="team-link" class="anchor"></a>Team
 
 ### Andreas Bruun Okholm
 I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
@@ -70,7 +70,7 @@ Marc has over 10 years of experience working with intellectual property. Further
 With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
 
-## <a name="progress" class="anchor"></a>Progress
+## <a name="progress-link" class="anchor"></a>Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
 1. Create an autonomously flying kite (**Achieved**)
@@ -96,7 +96,7 @@ While there are currently 100+ organisations involved in airborne wind energy [r
 * SkySails. Founded in 2001. Developing a soft kite with ground based generator. Has experience from developing a 300 m2 kite for pulling cargo ships. Investment in research in kite related activities to date 50 million euros [reference](http://www.skysails.info/english/power/development/). [website](http://www.skysails.info/).
 
 
-## <a name="contact" class="anchor"></a>Contact
+## <a name="contact-link" class="anchor"></a>Contact
 
 ![Office, Founders House Copenhagen]({{ site.github.url }}/images/OfficePanorama.jpg)
 
