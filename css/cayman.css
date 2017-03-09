@@ -252,3 +252,42 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+  @media screen and (min-width: 42em) {
+      nav {
+        position: fixed;
+      }
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #610699;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #FFF;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+}

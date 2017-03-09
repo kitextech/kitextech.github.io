@@ -3,42 +3,40 @@ layout: default
 title: {{ site.name }}
 ---
 
-### Quick Status
+**Latest: Marts 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are working on optimizing the flight control software before we continue with outdoor testing. **[Video clip](https://youtu.be/QKZIdXsHDRg)**
 
-**Marts 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are not working on optimising the flight control software before we take it out for outdoor testing.
-![Gif of AK004SuperQ flying indoor]({{ site.github.url }}/images/AK004TetheredIndoor.gif)
+![Gif of SuperQ flying indoor](/images/SuperQTetheredIndoor.gif)
 
-**January 24th** Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.   
+[List of prototype developments](/prototypes)
 
-**November 1st** We succeeded in creating a radio controlled flying fixed wing kite. [detailed description]({{ site.github.url }}{% post_url 2016-11-01-FW001-first-radio-controled-fixed-wing-kite %}) **[Video clip](https://youtu.be/9TSOK74dM5k)**
-
-![Gif of AK003 fixed wing flying]({{ site.github.url }}/images/AK003FixedWing.gif)
-
-**September 13th** We succeeded in creating a autonomous flying kite. [detailed description]({{ site.github.url }}{% post_url 2016-09-13-AK002-first-self-flying-kite %}) **[Video clip](https://youtu.be/O_YaRTxpii8)**
-
-![Gif of AK002 flying autonomously]({{ site.github.url }}/images/AK002Flying.gif)
 
 ## The future of wind energy
 Traditional wind mills are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
+![Kite Energy Concept](/images/Dual Airbone Generators.png)
+
 The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional windmill using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
 
-Makani, the currently leading commercial kite energy project, estimates that their kite system can deliver the same power at approximately **one tenth of the weight** of a traditional wind turbine. This translates to much lower costs for installing and servicing the wind power station.
+> We estimate that our kite energy system can deliver the same power at approximately **one tenth of the weight** of a traditional wind turbine. This translates to much lower costs for installing and servicing the wind power station.
 
-![Kite Energy Concept]({{ site.github.url }}/images/KiteEnergyConcept.jpg)
-
-Another advantages of the kite system is that it can more easily capture wind at higher altitudes where the wind is more consistent, delivering a given power output with less downtime. This will become especially important as a larger proportion of the locally generated energy is from non-constant sources such as wind and solar power.
-
-Furthermore, since the bending moment on the foundation of a kite mill is small to non-existent it is much easier to install kite based systems in offshore conditions.
+### Computing power
 
 While kites have been used to harness the power of the wind for utilitarian purposes since ancient times (lifting men, pulling cargo etc) wind power stations using kites are only appearing now. This is due in large part to the fact that they, especially the most efficient variants, require relatively sophisticated computer control systems. The dramatic fall in the cost of computing power makes kite energy a much more viable approach than just a decade ago. Combined with recent strides in materials technology makes this a very exciting and rewarding time to develop kite energy.
 
-## Purpose
+### How it works
+
+1. The kites takes off vertically like a quad-copter using their generators as motors to provide thrust.
+2. The tether is unwound until the kites reaches operational altitude.
+3. The kites start moving in around a common center of rotation using the airfoils of the main wing to propel the kite forward
+4. Using the forward thrust provided by the primary airfoils the generators is activated and starts generating power
+5. When the wind drops below the starting speed, the process is reversed and the kites land.
+
+## Our Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
 
-## <a name="team"></a>Team
+## <a name="team" class="anchor"></a>Team
 
 ### Andreas Bruun Okholm
 I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
@@ -72,7 +70,7 @@ Marc has over 10 years of experience working with intellectual property. Further
 With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
 
 
-## <a name="progress"></a>Progress
+## <a name="progress" class="anchor"></a>Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
 
 1. Create an autonomously flying kite (**Achieved**)
@@ -98,17 +96,16 @@ While there are currently 100+ organisations involved in airborne wind energy [r
 * SkySails. Founded in 2001. Developing a soft kite with ground based generator. Has experience from developing a 300 m2 kite for pulling cargo ships. Investment in research in kite related activities to date 50 million euros [reference](http://www.skysails.info/english/power/development/). [website](http://www.skysails.info/).
 
 
-## <a name="contact"></a>Contact
-![Office, Founders House Copenhagen]({{ site.github.url }}/images/OfficePanorama.jpg)
+## <a name="contact" class="anchor"></a>Contact
 
-**Address:**
+![Office, Founders House Copenhagen]({{ site.github.url }}/images/OfficePanorama.jpg)
 
 ```
 KiteX c/o Founders House
 Njalsgade 21G, 7th floor,
 2300 Copenhagen S
-```
 
-| Company Name  | KiteX IVS |
-| CVR | DK38029126 |
-| mail |  andreas at kitex.tech |
+Company Name: KiteX IVS
+CVR: DK38029126
+Mail: andreas at kitex.tech
+```
