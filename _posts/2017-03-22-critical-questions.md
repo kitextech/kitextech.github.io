@@ -53,7 +53,7 @@ While slightly counterintuitive to most, the weight of the kite (of a system wit
 
 This is one of the challenging aspects of the project as the serious weight restrictions means components needs to be carefully selected and designed. On the positive side Multi-rotor (Drone) systems seems to constantly grow in size these days and Makani has already shown that they can hover a 600 kW kite (video)[https://vimeo.com/141280416] in 2015.    
 
-## General Aviation
+## Will aviation authorities allow kite wind mills?
 Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) has been all allowed to setup test with commercial size tether lengths. It seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
 
 ## How long time will it take to develop?
