@@ -4,34 +4,33 @@ layout: default
 
 # Critical Questions
 
-## Do you have some calculations to show dual kites are better than one?
-The benefits from sharing the tether between two kites follow quite natural once the important design parameters of kite energy system has been determined. It first appeared in the very first patent about high altitude wind energy in 1976 (1) and was described as the so-called ‘dancing planes’ concepts.
+## What scientific support do you have for claiming that dual kites is significantly more efficient?
+The potential benefits of putting two kites on a single tether have been known for some time. It first appeared in the very first patent about high altitude wind energy in 1976 (1) and was described as the so-called ‘dancing planes’ concepts.
 
-The efficiency advantages of a dual kite system has been modeled in detail by Mario Zanon, S'ebastien Gros, Joel Andersson and Moritz Diehl (2). With their (mostly reasonable) assumptions a system to generate 3MW would in a dual kite configuration require total surface area of 45 m2 compared to 150 m2 for a single kite system. The advantage of the dual kite system does decrease for very large system.
+The efficiency advantages of a dual kite system stem mostly from being able to keep the main part of the tether still, instead of having it fly through the air, creating significantdrag. It has been modeled in detail by Mario Zanon, Sébastien Gros, Joel Andersson and Moritz Diehl (2). With their assumptions a system to generate 3MW would in a dual kite configuration require total surface area of 45 m2 compared to 150 m2 for a single kite system. The advantage of a dual kite system decreases for very large system.
 
-## What will you do about the patents?
+## Are there any existing patents standing in your way?
 As mentioned above the idea of onboard power generation (even using two kites) has been known since 1976 and the patents covering the general concept has expired.
 
-One potentially challenging patent is the one submitted by Makani Power (now owned by Google) in 2013 (3) describing a energy kite with onboard power generation, which is able to take off and land like a drone using it's generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist. The patent has since been transferred to the US Department of Energy.
+One potentially challenging patent is one submitted by Makani Power (now owned by Google) in 2013 (3) describing an energy kite with onboard power generation, which is able to take off and land like a drone using its generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist. The patent has since been transferred to the US Department of Energy.
 
-It seems especially Google is currently trying their best to protect their investment through obfuscation currently submitting a lot of patents. Historically very few of the thousands of patents within wind engineerings has had any impact (4), (5).
+It seems that especially Google is currently trying their best to protect their investment through obfuscation by submitting a lot of patents. Historically very few of the thousands of patents within wind engineering have had any impact (4), (5).
 
-We do recognize the importance of intellectual property and have and advisor to the team with more than 10 years of IP experience and PhD within electromechanics and aerodynamics.
+We do recognize the importance of intellectual property and have and advisor to the team with more than 10 years of IP experience and a PhD in electromechanics and aerodynamics.
 
+## Don't kites use too much space?
+The energy production per area is an interesting question. Italian researchers have estimated that airborne wind energy systems could increase energy production per unit of land by a factor of 5 to 15 times, but it's not very clear how they arrive at those numbers (7). Until further research has been done on the topic we expect output will be in the same order of magnitude. Interestingly enough for traditional windmills the output per area does not vary with their size [Stiesdal (in Danish) ](https://ing.dk/blog/bliver-vindmoellerne-ved-med-at-vokse-del-ii-192275).
 
-## Doesn't kites use too much space?
-The energy production per area is an interesting question. Italian researchers has estimated that a airborne wind energy systems could increase energy production per unit of land by a factor of 5 to 15 times, but it's not very clear how they arrive at those numbers (7). Until further research has been done on the topic we expect output will be in the same order of magnitude. Interestingly enough for traditional windmills they have the same output per area no matter the size [Stiesdal (in Danish) ](https://ing.dk/blog/bliver-vindmoellerne-ved-med-at-vokse-del-ii-192275).
+In any case our primary focus is reducing the cost per unit of energy and, not inreasing the power generated per area.
 
-In any case our primary focus is reducing the cost per energy and not power per area.
+## What happens when a storm hits?
+The kite itself will in normal operations be flying at speeds of up to 80 m/s (just like a sailboat outpaces the wind), much faster than the average storm speeds. _Flying_ the kite during high wind speeds is thus mostly not a problem, but _landing_ it in a controlled manner might be more difficult, for example if it needs maintenance or winds increase further. So it is most likely preferable to land the kites before the wind speeds gets too high.
 
-## What happens during a storm ?
-The kite itself will in normal operations be flying at up to speeds 80 m/s, much faster than the average storm speeds. It should be possible to fly in very high wind speeds, but landing it in a controlled manner might be more difficult. So it's most likely preferable to land the kites before the wind speeds gets too high.
+Rotoray aircrafts (as helicopters and the kite) are able to land in quite adverse conditions as shown in this video by the Danish Air Force. [Helicopter landing at rough sea during a storm](https://youtu.be/ptem1zpHD_s)
 
-Rotoray aircrafts (as helicopters and the kite) are however able to land in quite adverse conditions as shown in this video by the Danish Air Force. [Helicopter landing at rough sea during a storm](https://youtu.be/ptem1zpHD_s)
+Traditional wind turbines also shut down in case of stormy weather (25 m/s typically) to protect them from damage.
 
-Traditional wind turbines does in fact also shut down in case of stormy weather (25 m/s typically) to protect them from damage.
-
-## What about Lightning strikes?
+## What about lightning strikes?
 Kites will be susceptible to lightning and would need to be protected in a similar fashion to general aviation airplanes. By making the body conducting and isolating the critical electronics sufficiently is possible to lead the current around the critical components.
 
 ## Surely icing conditions must be a problem?
