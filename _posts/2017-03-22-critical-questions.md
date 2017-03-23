@@ -4,7 +4,7 @@ layout: default
 
 # Critical Questions
 
-## What scientific support do you have for claiming that dual kites is significantly more efficient?
+## Do you have any scientific support for claiming that dual kites is significantly more efficient?
 The potential benefits of putting two kites on a single tether have been known for some time. It first appeared in the very first patent about high altitude wind energy in 1976 (1) and was described as the so-called ‘dancing planes’ concepts.
 
 The efficiency advantages of a dual kite system stem mostly from being able to keep the main part of the tether still, instead of having it fly through the air, creating significantdrag. It has been modeled in detail by Mario Zanon, Sébastien Gros, Joel Andersson and Moritz Diehl (2). With their assumptions a system to generate 3MW would in a dual kite configuration require total surface area of 45 m2 compared to 150 m2 for a single kite system. The advantage of a dual kite system decreases for very large system.
