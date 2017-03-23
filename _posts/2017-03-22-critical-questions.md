@@ -19,49 +19,53 @@ It seems that especially Google is currently trying their best to protect their 
 We do recognize the importance of intellectual property and have and advisor to the team with more than 10 years of IP experience and a PhD in electromechanics and aerodynamics.
 
 ## Don't kites use too much space?
-The energy production per area is an interesting question. Italian researchers have estimated that airborne wind energy systems could increase energy production per unit of land by a factor of 5 to 15 times, but it's not very clear how they arrive at those numbers (7). Until further research has been done on the topic we expect output will be in the same order of magnitude. Interestingly enough for traditional windmills the output per area does not vary with their size [Stiesdal (in Danish) ](https://ing.dk/blog/bliver-vindmoellerne-ved-med-at-vokse-del-ii-192275).
+The energy production per area is an interesting question. Italian researchers have estimated that airborne wind energy systems could increase energy production per unit of land by a factor of 5 to 15 times, but it's not very clear how they arrive at those numbers (7). Until further research has been done on the topic we expect output will be in the same order of magnitude. Interestingly enough for traditional windmills the output per land area does not vary with their size [Stiesdal (in Danish) ](https://ing.dk/blog/bliver-vindmoellerne-ved-med-at-vokse-del-ii-192275).
 
-In any case our primary focus is reducing the cost per unit of energy and, not inreasing the power generated per area.
+In any case our primary focus is reducing the cost per unit of energy, not inreasing the power generated per area of land.
+
+## What happens when the wind stops blowing?
+
+The short answer is that the kite autonomously flies back down to the base station and stays there until the wind picks up again. This is a tough problem, but one that has been solved - numerous drone systems of various types can do this.
 
 ## What happens when a storm hits?
 The kite itself will in normal operations be flying at speeds of up to 80 m/s (just like a sailboat outpaces the wind), much faster than the average storm speeds. _Flying_ the kite during high wind speeds is thus mostly not a problem, but _landing_ it in a controlled manner might be more difficult, for example if it needs maintenance or winds increase further. So it is most likely preferable to land the kites before the wind speeds gets too high.
 
-Rotoray aircrafts (as helicopters and the kite) are able to land in quite adverse conditions as shown in this video by the Danish Air Force. [Helicopter landing at rough sea during a storm](https://youtu.be/ptem1zpHD_s)
+Rotary aircrafts (as helicopters and the kite) are able to land in quite adverse conditions as shown in this video by the Danish Air Force. [Helicopter landing at rough sea during a storm](https://youtu.be/ptem1zpHD_s)
 
 Traditional wind turbines also shut down in case of stormy weather (25 m/s typically) to protect them from damage.
 
 ## What about lightning strikes?
-Kites will be susceptible to lightning and would need to be protected in a similar fashion to general aviation airplanes. By making the body conducting and isolating the critical electronics sufficiently is possible to lead the current around the critical components.
+Kites will be susceptible to lightning and would need to be protected in a similar fashion to general aviation airplanes. By making the body conducting and isolating the critical electronics sufficiently it is possible to lead the current around the critical components.
 
 ## Surely icing conditions must be a problem?
-Over icing of the kite would be quite problematic as it could lead to a loss of control. Icing is however also a problem for traditional wind turbines as it leads to less efficient airfoils and results reduced power output. The most well tested solution is to install an electric heating system in the blades to keep the surface temperature above zero. Given the amount of heat needed to be dissipated from the electrical converters in a airborne generator (kite) it's not unlikely there could be some kind of synergy.
+Over icing of the kite would be quite problematic as it could lead to a loss of control. Icing is however also a problem for traditional wind turbines as it leads to less efficient airfoils and results in reduced power output. The most well tested solution is to install an electric heating system in the blades to keep the surface temperature above zero. Given the amount of heat needed to be dissipated from the electrical converters in an airborne generator (kite) it's not unlikely there could be some kind of synergy. An advantage our system has compared to traditional wind mills is that it is smaller and can be serviced on ground level.
 
-## The cost of Solar energy is falling exponentially!?
-Whether solar or wind is the better option mostly depends on the amount of wind and sun available on a given site. If solar cells continue to drop in price and this will mean that the balance point will move, however it seems both technologies will be relevant. 
+## With the cost of Solar energy is falling exponentially, is wind energy passé?
+Whether solar or wind is the better option mostly depends on the amount of wind and sun available at a given site. If solar cells continue to drop in price then this will mean that the balance point will move, but there is no reason to believe that either technology will become obsolete. 
 
 ## Will the system be robust enough to be economical?
-This is perhaps the most critical questions of all. Even though modern wind turbines are also very complex machines a kite wind turbine would potentially be a order of magnitude worse. Especially a dual kite system will be susceptible to mechanical failures.
+This is perhaps the most critical questions of all. Even though modern wind turbines are also very complex machines a kite wind turbine is on the face of it significantly more complex, especially a dual kite system.
 
-There is nothing pointing towards it being impossible, but the questions is at what R&D cost. On the positive side, most components will be much smaller and much cheaper than equivalent wind turbine versions, making component replacement much cheaper.
+There is no reason to believe it is impossible however, it all comes down to "at what R&D cost?". On the positive side, most components will be much smaller and much cheaper than equivalent wind turbine versions, making component replacement much cheaper.
 
 ## Isn't it quite dangerous?
-In the foreseeable future these kite system will mainly be operated in very sparsely populate areas (desserts, offshore) so the risk on injuring anyone should be very low. With time as confidence and operating hours increase it's not unlikely that the kite turbines could be used on/over farm land.
+For the foreseeable future these kite systems will mainly be operated in very sparsely populate areas (deserts, offshore) so the risk of injury is extremely low. With time as confidence and operating hours increase it is not unlikely that the kite turbines could be used over e.g. farm land, much like self driving cars and various drones gain acceptance.
 
 ## Won't the kite be too heavy with the generators onboard?
-While slightly counterintuitive to most, the weight of the kite (of a system with onboard generators) does not impact the power generated (as a first order approximation) (6). However while in hovering mode the mass constraint is a serious concern and a large mass would also cause undesirable large variations in energy production of the single kite doing one turn.
+The first thing to note is that the turbines onboard the kite will be spinning at a much higher rate than those in a traditional windmill, which means that for a given power output they can be made much smaller.
 
-This is one of the challenging aspects of the project as the serious weight restrictions means components needs to be carefully selected and designed. On the positive side Multi-rotor (Drone) systems seems to constantly grow in size these days and Makani has already shown that they can hover a 600 kW kite (video)[https://vimeo.com/141280416] in 2015.    
+Secondly, while it may seem counterintuitive, the weight of the kite as it is flying and generating energy does not impact the power generated (as a first order approximation) (6). However while in hovering mode, on its way to or from the base, the mass constraint is a serious concern.
+
+This is one of the challenging aspects of the project as the serious weight restrictions means components needs to be carefully selected and designed. On the positive side, viable multi-rotor (drone) systems constantly grow in size and Makani already showed in 2015 that they could hover a 600 kW kite (video)[https://vimeo.com/141280416].    
 
 ## Will aviation authorities allow kite wind mills?
-Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) has been all allowed to setup test with commercial size tether lengths. It seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
+Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) have all been allowed to perform tests with commercial scale tether lengts, so it seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
 
 ## How long time will it take to develop?
-With a Elon Musk timeline the kite would be producing energy mega watts by 2020, realistically add a year or two.
+With an Elon Musk timeline the kite would be producing energy mega watts by 2020; realistically add a year or two.
 
 ## What will be the R&D cost
-In order to get to a commercially viable system some industry estimates are in the order of 100 M USD, which doesn't seems unreasonable, but possibly more. Development cost of the last iteration of the giant offshore wind turbines (by Siemens and Vestas) are in the order of 500 M USD.
-
-
+In order to get to a commercially viable system some industry estimates are in the order of 100 M USD, which is in line with our own calculations. For comparison, the development costs for the latest iteration of the largest offshore wind turbines (by Siemens and Vestas) are on the order of 500 M USD. We expect to be able to cover a large part of this through government grants.
 
 1. Payne, Peter R., and Charles McCutchen. "Self-erecting windmill." U.S. Patent No. 3,987,987. 26 Oct. 1976.
 
