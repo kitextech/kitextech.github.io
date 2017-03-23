@@ -31,7 +31,7 @@ Rotoray aircrafts (as helicopters and the kite) are however able to land in quit
 
 Traditional wind turbines does in fact also shut down in case of stormy weather (25 m/s typically) to protect them from damage.
 
-## Lightning strikes?
+## What about Lightning strikes?
 Kites will be susceptible to lightning and would need to be protected in a similar fashion to general aviation airplanes. By making the body conducting and isolating the critical electronics sufficiently is possible to lead the current around the critical components.
 
 ## Surely icing conditions must be a problem?
@@ -45,7 +45,7 @@ This is perhaps the most critical questions of all. Even though modern wind turb
 
 There is nothing pointing towards it being impossible, but the questions is at what R&D cost. On the positive side, most components will be much smaller and much cheaper than equivalent wind turbine versions, making component replacement much cheaper.
 
-## Isn't it quite dangerous
+## Isn't it quite dangerous?
 In the foreseeable future these kite system will mainly be operated in very sparsely populate areas (desserts, offshore) so the risk on injuring anyone should be very low. With time as confidence and operating hours increase it's not unlikely that the kite turbines could be used on/over farm land.
 
 ## Won't the kite be too heavy with the generators onboard?
