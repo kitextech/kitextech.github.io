@@ -298,6 +298,8 @@ nav li a:hover {
     color: white;
 }
 
-img.width50percent {
-  width: 50%;
+@media screen and (min-width: 42em) {
+    img.width50percent {
+      width: 50%;
+    }
 }
