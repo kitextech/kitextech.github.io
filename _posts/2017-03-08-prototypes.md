@@ -7,7 +7,7 @@ We focus on quick iterations and creating simple prototypes that ideally only in
 
 ### SuperQ Position Controlled Outdoor Hover
 
-**Marts 20th**
+**March 20th**
 Our first autonomous flight in positional hover control mode. Position commands are send from our ground control software running on the laptop. The kite is aware of the tether point and takes any position commands and translate it into movement on the sphere of possible locations. Additional thrust in the direction of the tether towards the kite is added to keep a constant tether tension.
 
 **[Video: Tethered Manual Flight  ](https://youtu.be/75YdklYrvOs)**
@@ -19,7 +19,7 @@ Our first autonomous flight in positional hover control mode. Position commands 
 
 ### SuperQ Tethered Indoor flight
 
-**Marts 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are working on optimizing the flight control software before we continue with outdoor testing. **[Video clip](https://youtu.be/QKZIdXsHDRg)**
+**March 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are working on optimizing the flight control software before we continue with outdoor testing. **[Video clip](https://youtu.be/QKZIdXsHDRg)**
 
 ![Gif of SuperQ flying indoor](/images/SuperQTetheredIndoor.gif)
 
