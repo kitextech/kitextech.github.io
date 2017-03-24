@@ -303,3 +303,9 @@ nav li a:hover {
       width: 50%;
     }
 }
+
+@media screen and (max-width: 42em) {
+    img.width50percent {
+      width: 90%;
+    }
+}
