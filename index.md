@@ -40,7 +40,7 @@ Traditional wind turbines are often the preferred solutions when creating new po
 
 ![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
-The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional windmill using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
+The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional wind turbine using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
 
 ### Computing power
 

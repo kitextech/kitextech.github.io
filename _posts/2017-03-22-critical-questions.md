@@ -52,7 +52,7 @@ There is no reason to believe it is impossible however, it all comes down to "at
 For the foreseeable future these kite systems will mainly be operated in very sparsely populate areas (deserts, offshore) so the risk of injury is extremely low. With time as confidence and operating hours increase it is not unlikely that the kite turbines could be used over e.g. farm land, much like self driving cars and various drones gain acceptance.
 
 ## Won't the kite be too heavy with the generators onboard?
-The first thing to note is that the turbines onboard the kite will be spinning at a much higher rate than those in a traditional windmill, which means that for a given power output they can be made much smaller.
+The first thing to note is that the turbines onboard the kite will be spinning at a much higher rate than those in a traditional wind turbines, which means that for a given power output they can be made much smaller.
 
 Secondly, while it may seem counterintuitive, the weight of the kite as it is flying and generating energy does not impact the power generated (as a first order approximation) (6). However while in hovering mode, on its way to or from the base, the mass constraint is a serious concern.
 
