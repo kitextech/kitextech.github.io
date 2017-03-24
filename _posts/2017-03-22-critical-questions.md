@@ -63,6 +63,7 @@ With a Elon Musk timeline the kite would be producing energy mega watts by 2020,
 In order to get to a commercially viable system some industry estimates are in the order of 100 M USD, which doesn't seems unreasonable, but possibly more. Development cost of the last iteration of the giant offshore wind turbines (by Siemens and Vestas) are in the order of 500 M USD.
 
 
+## References
 
 1. Payne, Peter R., and Charles McCutchen. "Self-erecting windmill." U.S. Patent No. 3,987,987. 26 Oct. 1976.
 

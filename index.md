@@ -4,37 +4,47 @@ title: {{ site.name }}
 ---
 
 **Latest: Marts 20th**
-Our first autonomous flight in positional hover control mode. Position commands are send from our ground control software running on the laptop. The kite is aware of the tether point and takes any position commands and translate it into movement on the sphere of possible locations. Additional thrust in the direction of the tether towards the kite is added to keep a constant tether tension.
-
-**[Video: Tethered Manual Flight  ](https://youtu.be/75YdklYrvOs)**
-
-**[Video: Positional Ground Control](https://youtu.be/NPD7NFguqek)**
+Our first autonomous flight in positional hover control mode. Position commands are send from our ground control software running on the laptop. The kite is aware of the tether point and takes any position commands and translate it into movement on the sphere of possible locations. Additional thrust in the direction of the tether towards the kite is added to keep a constant tether tension. **[Video: Tethered Manual Flight  ](https://youtu.be/75YdklYrvOs)**, **[Video: Positional Ground Control](https://youtu.be/NPD7NFguqek)**
 
 ![Gif of SuperQ tethered positional flight mode outdoor](/images/SuperQPositionFlight.gif)
 
-[List of prototype developments](/prototypes)
+## What are you making?
+We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.
+
+### How does it work?
+
+A stiff kite made of carbon fibre and sized like a small plane is connected via a kilometre long tether to a base station and flies some 200 meters above the sea. The wind causes the kite to fly around in large circles at speeds significantly faster than the wind.
+
+![Kite Energy Concept](/images/workPart1@2x.png){:class="width50percent"}
+
+On the wings of the kite are mounted small turbines that are made to rotate when the kite flies through the air. They are connected to generators that produce electricity, which is then sent down the wire to the base station
+
+![Kite Energy Concept](/images/workPart2@2x.png){:class="width50percent"}
+
+When the wind drops or there is a storm coming, the kite automatically flies down to the base station in the manner of a quadcopter.
+
+![Kite Energy Concept](/images/workPart3@2x.png){:class="width50percent"}
 
 
-## The future of wind energy
-Traditional wind mills are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+The kite then stays on the base station until the weather conditions improve, at which point it will fly back out, again automatically, to its normal position and start generating power again.
 
-![Kite Energy Concept](/images/Dual Airbone Generators.png)
+![Kite Energy Concept](/images/workPart4@2x.png){:class="width50percent"}
+
+## Pitch
+We have applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/yc-2017S/).
+
+In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
+
+### Why are kites better?
+Traditional wind turbines are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+
+![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
 The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional windmill using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
-
-> We estimate that our kite energy system can deliver the same power at approximately **one tenth of the weight** of a traditional wind turbine. This translates to much lower costs for installing and servicing the wind power station.
 
 ### Computing power
 
 While kites have been used to harness the power of the wind for utilitarian purposes since ancient times (lifting men, pulling cargo etc) wind power stations using kites are only appearing now. This is due in large part to the fact that they, especially the most efficient variants, require relatively sophisticated computer control systems. The dramatic fall in the cost of computing power makes kite energy a much more viable approach than just a decade ago. Combined with recent strides in materials technology makes this a very exciting and rewarding time to develop kite energy.
-
-### How it works
-
-1. The kites takes off vertically like a quad-copter using their generators as motors to provide thrust.
-2. The tether is unwound until the kites reaches operational altitude.
-3. The kites start moving in around a common center of rotation using the airfoils of the main wing to propel the kite forward
-4. Using the forward thrust provided by the primary airfoils the generators is activated and starts generating power
-5. When the wind drops below the starting speed, the process is reversed and the kites land.
 
 ## Our Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
@@ -76,7 +86,7 @@ With over 25 years of electronic hardware development experience. Rolf has a hug
 
 
 ## <a name="progress-link" class="anchor"></a>Progress
-Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this. (subject to change).
+Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this.
 
 1. Create an autonomously flying kite (**Achieved**)
 2. Create a fixed wing flying kite (**Achieved**)
@@ -85,12 +95,8 @@ Our path towards commercially viable kite energy is designed with the philosophy
 5. Add energy generation
 6. Scale it up to commercially viable proportions
 
-## Articles on Kite Energy
+We try to keep a updated [List of prototype developments](/prototypes).
 
-* M.L. LOYD.  "Crosswind kite power (for large-scale wind power production)" Journal of Energy, Vol. 4, No. 3 (1980), pp. 106-111.
-[link](http://edge.rit.edu/content/R15901/public/Matt%20Kennedy/homes.esat.kuleuven.be_~highwind_wp-content_uploads_2011_07_Loyd1980.pdf))
-* Diehl, Moritz. "Airborne wind energy: Basic concepts and physical foundations." Airborne Wind Energy. Springer Berlin Heidelberg, 2013. 3-22. [link](http://homes.esat.kuleuven.be/~highwind/wp-content/uploads/2013/08/Diehl2013a.pdf)
-* Giesbrecht, J., et al. "Path tracking for unmanned ground vehicle navigation." DRDC Suffield TM 224 (2005). [link](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc45/p524913.pdf)
 
 ## Competitive landscape
 
