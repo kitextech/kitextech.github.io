@@ -88,12 +88,11 @@ With over 25 years of electronic hardware development experience. Rolf has a hug
 ## <a name="progress-link" class="anchor"></a>Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this.
 
-1. Create an autonomously flying kite (**Achieved**)
-2. Create a fixed wing flying kite (**Achieved**)
-3. Create a tethered drone that can take off and land autonomously ((**Work in progress**)
-4. Combine 2 and 3 into a completely autonomous kite
-5. Add energy generation
-6. Scale it up to commercially viable proportions
+1. Autonomously flying kite (**Achieved**)
+2. Fixed wing flying kite (**Achieved**)
+3. Tethered drone that can take off and land autonomously ((**Work in progress**)
+4. Energy generation
+5. Scale it up to commercially viable proportions
 
 We try to keep a updated [List of prototype developments](/prototypes).
 
