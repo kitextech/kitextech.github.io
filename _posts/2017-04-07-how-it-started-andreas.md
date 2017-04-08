@@ -1,6 +1,7 @@
 ---
 layout: default
 category: blog
+description: The story about how KiteX was started from the perspective of Andreas.  
 ---
 
 ## How the KiteX project started - Andreas
