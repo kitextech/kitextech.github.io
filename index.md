@@ -3,10 +3,10 @@ layout: default
 title: {{ site.name }}
 ---
 
-**Latest: March 20th**
-Our first autonomous flight in positional hover control mode. Position commands are send from our ground control software running on the laptop. The kite is aware of the tether point and takes any position commands and translate it into movement on the sphere of possible locations. Additional thrust in the direction of the tether towards the kite is added to keep a constant tether tension. **[Video: Tethered Manual Flight  ](https://youtu.be/75YdklYrvOs)**, **[Video: Positional Ground Control](https://youtu.be/NPD7NFguqek)**
+**Latest: April 8th**
+We now have two kites that are capable of hovering and ready for more flight testing! Time to work on the flight control and transition manoeuvre from hover to fixed wing wind driven flight.
 
-![Gif of SuperQ tethered positional flight mode outdoor](/images/SuperQPositionFlight.gif)
+![Two complete SuperQ kites ready](/images/SuperQTwoKites.jpg)
 
 ## What are you making?
 We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.

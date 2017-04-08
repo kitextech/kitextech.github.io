@@ -5,6 +5,13 @@ layout: default
 # Prototype Developments
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
+### SuperQ Two kites
+**April 8th**
+We now have two kites that are capable of hovering and ready for more flight testing! Time to work on the flight control and transition manoeuvre from hover to fixed wing wind driven flight.
+
+![Two complete SuperQ kites ready](/images/SuperQTwoKites.jpg)
+
+
 ### SuperQ Position Controlled Outdoor Hover
 
 **March 20th**
