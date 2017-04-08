@@ -12,7 +12,7 @@ The efficiency advantages of a dual kite system stem mostly from being able to k
 ## Are there any existing patents standing in your way?
 As mentioned above the idea of onboard power generation (even using two kites) has been known since 1976 and the patents covering the general concept has expired.
 
-One potentially challenging patent is one submitted by Makani Power (now owned by Google) in 2013 (3) describing an energy kite with onboard power generation, which is able to take off and land like a drone using its generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist. The patent has since been transferred to the US Department of Energy.
+One potentially challenging patent is one submitted by Makani Power (now owned by Google) in 2013 (3) describing an energy kite with onboard power generation, which is able to take off and land like a drone using its generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist.
 
 It seems that especially Google is currently trying their best to protect their investment through obfuscation by submitting a lot of patents. Historically very few of the thousands of patents within wind engineering have had any impact (4), (5).
 
