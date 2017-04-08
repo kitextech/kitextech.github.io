@@ -8,7 +8,7 @@ description: The story about how KiteX was started from the perspective of Andre
 
 ### Purple
 
-In November 2015 I knew I was going to end my daily work as CTO in Vaavud. Two months later, after the hand over, Gustaf convinced me to start working on a new startup project - “dropbox for data”. The idea was to create a modern spreadsheet application, where all data you worked on would be connected and live synced (also with external sources). We did get manage create a top 10% application for YCombinator S2016, but in the end I still had a hard time explaining exactly what we were doing, the team dynamics could be better and finally I wasn’t super excited about it, so after about 4 months I decided to quit the project.   
+In November 2015 I knew I was going to end my daily work as CTO in Vaavud. Two months later, after the handover, Gustaf convinced me to start working on a new startup project - “dropbox for data”. The idea was to create a modern spreadsheet application, where all data you worked on would be connected and live synced (also with external sources). We did manage to create a top 10% application for YCombinator S2016, but in the end I still had a hard time explaining exactly what we were doing, the team dynamics could be better and finally I wasn’t super excited about it, so after about 4 months I decided to quit the project.   
 
 ![Purple Spreadsheet](/images/PurpleSpreadsheet.jpg)
 *Screenshot from the purple spreadsheet app.*
