@@ -31,7 +31,7 @@ The kite then stays on the base station until the weather conditions improve, at
 ![Kite Energy Concept](/images/workPart4@2x.png){:class="width50percent"}
 
 ## Pitch
-We have applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/yc-2017S/).
+We have applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
 
 In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
 
