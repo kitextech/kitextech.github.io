@@ -7,12 +7,12 @@ layout: default
 ## Do you have any scientific support for claiming that dual kites is significantly more efficient?
 The potential benefits of putting two kites on a single tether have been known for some time. It first appeared in the very first patent about high altitude wind energy in 1976 (1) and was described as the so-called ‘dancing planes’ concepts.
 
-The efficiency advantages of a dual kite system stem mostly from being able to keep the main part of the tether still, instead of having it fly through the air, creating significantdrag. It has been modeled in detail by Mario Zanon, Sébastien Gros, Joel Andersson and Moritz Diehl (2). With their assumptions a system to generate 3MW would in a dual kite configuration require total surface area of 45 m2 compared to 150 m2 for a single kite system. The advantage of a dual kite system decreases for very large system.
+The efficiency advantages of a dual kite system stem mostly from being able to keep the main part of the tether still, instead of having it fly through the air, creating significant drag. It has been modeled in detail by Mario Zanon, Sébastien Gros, Joel Andersson and Moritz Diehl (2). With their assumptions a system to generate 3MW would in a dual kite configuration require total surface area of 45 m2 compared to 150 m2 for a single kite system. The advantage of a dual kite system decreases for very large system.
 
 ## Are there any existing patents standing in your way?
 As mentioned above the idea of onboard power generation (even using two kites) has been known since 1976 and the patents covering the general concept has expired.
 
-One potentially challenging patent is one submitted by Makani Power (now owned by Google) in 2013 (3) describing an energy kite with onboard power generation, which is able to take off and land like a drone using its generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist.
+One potentially challenging patent is one submitted by Makani Power (now owned by Google) in 2013 (3) describing an energy kite with onboard power generation, which is able to take off and land, on a "perch", like a drone using its generators "in reverse" to provide thrust. We do believe we can adapt our solution to avoid infringing the patent, but some uncertainty still exist.
 
 It seems that especially Google is currently trying their best to protect their investment through obfuscation by submitting a lot of patents. Historically very few of the thousands of patents within wind engineering have had any impact (4), (5).
 
@@ -21,7 +21,7 @@ We do recognize the importance of intellectual property and have and advisor to 
 ## Don't kites use too much space?
 The energy production per area is an interesting question. Italian researchers have estimated that airborne wind energy systems could increase energy production per unit of land by a factor of 5 to 15 times, but it's not very clear how they arrive at those numbers (7). Until further research has been done on the topic we expect output will be in the same order of magnitude. Interestingly enough for traditional windmills the output per land area does not vary with their size [Stiesdal (in Danish) ](https://ing.dk/blog/bliver-vindmoellerne-ved-med-at-vokse-del-ii-192275).
 
-In any case our primary focus is reducing the cost per unit of energy, not inreasing the power generated per area of land.
+In any case our primary focus is reducing the cost per unit of energy, not increasing the power generated per unit of land.
 
 ## What happens when the wind stops blowing?
 
@@ -59,7 +59,7 @@ Secondly, while it may seem counterintuitive, the weight of the kite as it is fl
 This is one of the challenging aspects of the project as the serious weight restrictions means components needs to be carefully selected and designed. On the positive side, viable multi-rotor (drone) systems constantly grow in size and Makani already showed in 2015 that they could hover a 600 kW kite (video)[https://vimeo.com/141280416].    
 
 ## Will aviation authorities allow kite wind mills?
-Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) have all been allowed to perform tests with commercial scale tether lengts, so it seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
+Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) have all been allowed to perform tests with commercial scale tether lengths, so it seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
 
 ## How long time will it take to develop?
 With an Elon Musk timeline the kite would be producing energy mega watts by 2020; realistically add a year or two.
