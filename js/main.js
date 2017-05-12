@@ -172,16 +172,34 @@ var windButton = draw.rect(40,40).center(sliderX, sliderYMin + 50).fill('#610699
     sliderHandle.animate().center(sliderX, sliderYMin + (sliderYMax - sliderYMin) * windspeedTarget)
   })
 
-var stateDirection = 0
-var windspeed = 1
+// var stateDirection = 0
 
+function currentWindspeed() {
+  return (sliderHandle.cy() - sliderYMin) / (sliderYMax - sliderYMin)
+}
+
+function powerOutput(ratio, cableState, transitionState) {
+  if (cableState == 0) {
+    return 0
+  }
+
+  if (cableState != 1) {
+    return -100
+  }
+
+  if (ratio >= 0.2 && ratio < 0.5) {
+    return ratio * 2000 * transitionState
+  } else  {
+    return 1000 * transitionState
+  }
+}
 
 
 // update is called on every animation step
 function update(dt) {
 
-  windspeed = (sliderHandle.cy() - sliderYMin) / (sliderYMax - sliderYMin)
-  stateDirection = (windspeed < 0.9 && windspeed > 0.2) ? 1 : -1
+  var windspeed = currentWindspeed()
+  var stateDirection = (windspeed < 0.9 && windspeed > 0.2) ? 1 : -1
 
   kite1.update(dt, stateDirection, windspeed)
   kite2.update(dt, stateDirection, windspeed)
@@ -190,6 +208,9 @@ function update(dt) {
   line1.plot.apply(line1, tether.getMainTether())
   line2.plot.apply(line2, tether.getTether1())
   line3.plot.apply(line3, tether.getTether2())
+
+  label1.text( powerOutput(windspeed, kite1.cable(), kite1.transition()).toFixed(0) + ' kW')
+  label2.text( (windspeed * 25).toFixed(0) + ' m/s')
 }
 
 var lastTime, animFrame
@@ -207,17 +228,17 @@ function callback(ms) {
 
 callback()
 
-
-SVG.on(document, 'keydown', function(e) {
-  stateDirection = e.keyCode == 40 ? -1 : e.keyCode == 38 ? 1 : 0
-  console.log(stateDirection);
-  e.preventDefault()
-})
-
-SVG.on(document, 'keyup', function(e) {
-  stateDirection = 0
-  e.preventDefault()
-})
+//
+// SVG.on(document, 'keydown', function(e) {
+//   stateDirection = e.keyCode == 40 ? -1 : e.keyCode == 38 ? 1 : 0
+//   console.log(stateDirection);
+//   e.preventDefault()
+// })
+//
+// SVG.on(document, 'keyup', function(e) {
+//   stateDirection = 0
+//   e.preventDefault()
+// })
 
 // draw.on('click', function() {
 //   if(vx === 0 && vy === 0) {
