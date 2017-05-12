@@ -34,7 +34,7 @@ SVG.Kite = SVG.invent({
 
     update: function(dt, stateDirection, windspeed) {
       this.updateState(dt, stateDirection)
-      this.phase += dt * windspeed * this.transition()
+      this.phase += dt * 3 * windspeed * this.transition()
       this.phase = this.phase > 2 * Math.PI ? this.phase - 2*Math.PI : this.phase
 
       this.transform({
@@ -149,14 +149,28 @@ var label1 = draw.text(powerGeneration+' kW').font({
 
 var label2 = label1.clone().move(width-10, 40)
 
+// Slider
 
+var windspeed = 0.5
 
+var sliderX = 600
+var sliderYMax = 100
+var sliderYMin = 300
+var sliderXCurrent = 240
 
+function sliderYcurrent() {
+  return sliderYMin + windspeed
+}
 
+var sliderBase = draw.line(sliderX,sliderYMax,sliderX,sliderYMin).stroke({ width: 3, color: '#333', linecap: 'round', linejoin: 'round' })
+// var sliderFill = draw.line(sliderX,sliderXCurrent,sliderX,sliderYMin).stroke({ width: 3, color: '#610699', linecap: 'round', linejoin: 'round' })
+var sliderHandle = draw.circle(30).center(sliderX,sliderXCurrent).fill('#610699')
 
-
-
-
+var windButton = draw.rect(40,40).center(sliderX, sliderYMin + 50).fill('#610699')
+  .click(function() {
+    windspeedTarget = Math.random()
+    sliderHandle.animate().center(sliderX, sliderYMin + (sliderYMax - sliderYMin) * windspeedTarget)
+  })
 
 var stateDirection = 0
 var windspeed = 1
@@ -165,6 +179,10 @@ var windspeed = 1
 
 // update is called on every animation step
 function update(dt) {
+
+  windspeed = (sliderHandle.cy() - sliderYMin) / (sliderYMax - sliderYMin)
+  stateDirection = (windspeed < 0.9 && windspeed > 0.2) ? 1 : -1
+
   kite1.update(dt, stateDirection, windspeed)
   kite2.update(dt, stateDirection, windspeed)
   tether.setKitePositions(kite1.xpos(), kite1.ypos(), kite2.xpos(), kite2.ypos())
