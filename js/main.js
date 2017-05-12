@@ -301,6 +301,7 @@ var purple = '#610699'
 // create SVG document and set its size
 var draw = SVG('drawing').size(width, height)
 draw.viewbox(0,0,width,height)
+draw.attr({preserveAspectRatio:"xMinYMin meet"})
 
 // draw background
 var background = draw.rect(width, height).fill('#dde3e1')
