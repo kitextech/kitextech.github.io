@@ -24,17 +24,17 @@ SVG.Kite = SVG.invent({
     },
 
     xpos: function() {
-      return this.cable() * (this.rotationX + 100 * Math.cos(this.phase)) +
+      return this.cable() * (this.rotationX + this.radius * Math.cos(this.phase + this.phaseOffset)) +
         (1-this.cable()) * this.baseX
     },
     ypos: function() {
-      return this.cable() * (this.rotationY + 100 * Math.sin(this.phase)) +
+      return this.cable() * (this.rotationY + this.radius * Math.sin(this.phase + this.phaseOffset)) +
         (1-this.cable()) * this.baseY
     },
 
-    update: function(dt) {
-
-      this.phase += dt * this.transition()
+    update: function(dt, stateDirection, windspeed) {
+      this.updateState(dt, stateDirection)
+      this.phase += dt * windspeed * this.transition()
       this.phase = this.phase > 2 * Math.PI ? this.phase - 2*Math.PI : this.phase
 
       this.transform({
@@ -42,25 +42,24 @@ SVG.Kite = SVG.invent({
         y: this.ypos()
       })
       .transform({
-        rotation: this.transition() * this.phase / Math.PI * 180
+        rotation: this.transition() * (this.phase + this.phaseOffset + Math.PI) / Math.PI * 180 + 180
       })
 
       return this
     }
-
   }
-
   // Add method to parent elements
 , construct: {
   // Create a wrapped polygon element
     kite: function(p, o) {
       // make sure plot is called as a setter
-
       var newKite = this.put(new SVG.Kite).plot(p || new SVG.PointArray)
       newKite.baseX = (typeof o.baseX !== 'undefined') ?  o.baseX : 100;
       newKite.baseY = (typeof o.baseY !== 'undefined') ?  o.baseY : 300;
       newKite.rotationX = (typeof o.rotationX !== 'undefined') ?  o.rotationX : 400;
       newKite.rotationY = (typeof o.rotationY !== 'undefined') ?  o.rotationY : 100;
+      newKite.phaseOffset = (typeof o.phaseOffset !== 'undefined') ?  o.phaseOffset : 0;
+      newKite.radius = (typeof o.radius !== 'undefined') ?  o.radius : 100;
 
       return newKite
     }
@@ -69,31 +68,73 @@ SVG.Kite = SVG.invent({
 
 
 // define document width and height
-var width = 1000, height = 400
+var width = 832, height = 400
 
 // create SVG document and set its size
 var draw = SVG('drawing').size(width, height)
 draw.viewbox(0,0,width,height)
 
-var base = {x: 100, y: 280}
-var kite = {x: 300, y: 120, width:100, height: 10, rotation: 0, radius:100, velocity:1}
-
 // draw background
 var background = draw.rect(width, height).fill('#dde3e1')
+var base = {x: 100, y: 350}
 
-// define kite width and height
-var kite1 = draw.kite([[-kite.width/2,-kite.height/2], [0,kite.height/2], [kite.width/2,-kite.height/2]], {})
-  .fill('#f00')
-  // .center(kite.x,kite.y) //.dx(kite.radius)
-  .stroke({ width: 3, linecap: 'round', linejoin: 'round' })
-  .rotate(kite.rotation)
+// *** KITES ****
+// Kite shape
+var kiteShape = [[2, 30],[3, 8], [100, 8], [100,-3], [6, -8], [2, -60], [30, -60], [30, -66]]
+for (var i=kiteShape.length-1; i >= 0; i-- ) {
+  kiteShape.push([ -kiteShape[i][0], kiteShape[i][1]])
+}
+var scale = 0.5;
+var kiteShapeScaled = kiteShape.map( function(p) {
+  return p.map( function(e) {
+    return scale*e
+  })
+})
 
-// draw line
-var line = draw.line(base.x, base.y, kite.x, kite.y)
-line.stroke({ width: 3, color: '#222', linecap: 'round', linejoin: 'round' })
+var kite1 = draw.kite(kiteShapeScaled, {})
+  .fill('#610699').stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
 
-var kite2 = draw.rect(30,30)
-kite2.animate(4000).move(200,200).loop()
+var kite2 = draw.kite(kiteShapeScaled, {baseX: 200, phaseOffset: Math.PI})
+  .fill('#610699').stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
+
+
+// tethers
+var tether = {
+  mainRatio: 0.8, baseX: 0, baseY: 0, x1: 0, y1:0, x2: 0, y2: 0,
+
+  setBase: function(x,y) {
+    this.baseX = x
+    this.baseY = y
+  },
+  setKitePositions: function(x1, y1, x2, y2) {
+    this.x1 = x1
+    this.y1 = y1
+    this.x2 = x2
+    this.y2 = y2
+  },
+  joinPosX: function() {
+    return (this.x1+this.x2)/2 * (this.mainRatio) + this.baseX *(1-this.mainRatio)
+  },
+  joinPosY: function() {
+    return (this.y1+this.y2)/2 * (this.mainRatio) + this.baseY *(1-this.mainRatio)
+  },
+  getMainTether: function(){
+    return [this.baseX, this.baseY, this.joinPosX(), this.joinPosY()]
+  },
+  getTether1: function(){
+    return [this.joinPosX(), this.joinPosY(), this.x1, this.y1]
+  },
+  getTether2: function(){
+    return [this.joinPosX(), this.joinPosY(), this.x2, this.y2]
+  }
+}
+
+tether.setBase(base.x, base.y)
+
+var line1 = draw.line().stroke({ width: 3, color: '#222', linecap: 'round', linejoin: 'round' })
+var line2 = line1.clone()
+var line3 = line1.clone()
+
 
 // define inital player score
 var powerGeneration = 0
@@ -107,21 +148,31 @@ var label1 = draw.text(powerGeneration+' kW').font({
 }).move(width-10, 10)
 
 var label2 = label1.clone().move(width-10, 40)
+
+
+
+
+
+
+
+
+
+
 var stateDirection = 0
+var windspeed = 1
+
 
 
 // update is called on every animation step
 function update(dt) {
-  // move the ball by its velocity
-  kite.rotation += kite.velocity * dt
+  kite1.update(dt, stateDirection, windspeed)
+  kite2.update(dt, stateDirection, windspeed)
+  tether.setKitePositions(kite1.xpos(), kite1.ypos(), kite2.xpos(), kite2.ypos())
 
-  kite1
-  .updateState(dt, stateDirection)
-  .update(dt)
-
-  line.plot(base.x, base.y, kite1.xpos(), kite1.ypos())
+  line1.plot.apply(line1, tether.getMainTether())
+  line2.plot.apply(line2, tether.getTether1())
+  line3.plot.apply(line3, tether.getTether2())
 }
-
 
 var lastTime, animFrame
 
@@ -150,25 +201,9 @@ SVG.on(document, 'keyup', function(e) {
   e.preventDefault()
 })
 
-draw.on('click', function() {
-  if(vx === 0 && vy === 0) {
-    vx = Math.random() * 500 - 150
-    vy = Math.random() * 500 - 150
-  }
-})
-
-function reset() {
-  // visualize boom
-  boom()
-
-  // reset speed values
-  vx = 0
-  vy = 0
-
-  // position the ball back in the middle
-  ball.animate(100).center(width/2, height/2)
-
-  // reset the position of the paddles
-  paddleLeft.animate(100).cy(height/2)
-  paddleRight.animate(100).cy(height/2)
-}
+// draw.on('click', function() {
+//   if(vx === 0 && vy === 0) {
+//     vx = Math.random() * 500 - 150
+//     vy = Math.random() * 500 - 150
+//   }
+// })
