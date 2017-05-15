@@ -238,7 +238,8 @@ SVG.Kite = SVG.invent({
     state: 0,
     phase: 0,
     updateState: function(dt, direction) {
-      this.state += dt * direction
+      var speed = this.transition() > 0 ? 1 : 0.5
+      this.state += speed * dt * direction
       this.state = Math.max( Math.min(this.state, 2), 0)
       return this
     },
@@ -246,6 +247,7 @@ SVG.Kite = SVG.invent({
     cable: function() {
       return Math.min(this.state, 1)
     },
+
     transition: function() {
       return Math.min( Math.max(this.state-1, 0), 1)
     },
@@ -281,9 +283,9 @@ SVG.Kite = SVG.invent({
     kite: function(p, o) {
       // make sure plot is called as a setter
       var newKite = this.put(new SVG.Kite).plot(p || new SVG.PointArray)
-      newKite.baseX = (typeof o.baseX !== 'undefined') ?  o.baseX : 100;
+      newKite.baseX = (typeof o.baseX !== 'undefined') ?  o.baseX : 200;
       newKite.baseY = (typeof o.baseY !== 'undefined') ?  o.baseY : 300;
-      newKite.rotationX = (typeof o.rotationX !== 'undefined') ?  o.rotationX : 400;
+      newKite.rotationX = (typeof o.rotationX !== 'undefined') ?  o.rotationX : 550;
       newKite.rotationY = (typeof o.rotationY !== 'undefined') ?  o.rotationY : 100;
       newKite.phaseOffset = (typeof o.phaseOffset !== 'undefined') ?  o.phaseOffset : 0;
       newKite.radius = (typeof o.radius !== 'undefined') ?  o.radius : 100;
@@ -292,6 +294,33 @@ SVG.Kite = SVG.invent({
     }
   }
 })
+
+
+var powerTower = {
+  coords: [[0, 0], [-25, 20], [25, 20], [-10,50], [10, 50], [-30, 50], [30, 50], [0, 67], [-20, 100], [20, 100]]
+, lines: [[1,5,2,3,4], [6,7,8], [4,9,5,4,10,5]]
+, points: [2, 3, 6, 7]
+, scale: 1.6
+
+, construct: function(draw) {
+    var g = draw.group()
+    var pt = this
+
+    this.coords = this.coords.map( function(coord){ return coord.map( function(e){return pt.scale*e }) })
+
+    this.lines.map( function(line) {
+      var lineCoords = line.map( function(cIndex) { return pt.coords[cIndex-1]})
+      g.polygon().plot(lineCoords).fill('none').stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#444' })
+    })
+
+    this.points.map( function(pIndex) {
+      var c = pt.coords[pIndex-1]
+      g.circle(4).fill('#000').center(c[0], c[1]+10)
+    })
+
+    return g
+  }
+}
 
 
 // define document width and height
@@ -305,7 +334,7 @@ draw.attr({preserveAspectRatio:"xMinYMin meet"})
 
 // draw background
 var background = draw.rect(width, height).fill('#dde3e1')
-var base = {x: 100, y: 350}
+var base = {x: 280, y: 360}
 
 // *** KITES ****
 // Kite shape
@@ -323,11 +352,11 @@ var kiteShapeScaled = kiteShape.map( function(p) {
 var kite1 = draw.kite(kiteShapeScaled, {})
   .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
 
-var kite2 = draw.kite(kiteShapeScaled, {baseX: 200, phaseOffset: Math.PI})
+var kite2 = draw.kite(kiteShapeScaled, {baseX: 360, phaseOffset: Math.PI})
   .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
 
 
-// tethers
+// *** Tethers ****
 var tether = {
   mainRatio: 0.8, baseX: 0, baseY: 0, x1: 0, y1:0, x2: 0, y2: 0,
 
@@ -364,6 +393,15 @@ var line1 = draw.line().stroke({ width: 3, color: '#222', linecap: 'round', line
 var line2 = line1.clone()
 var line3 = line1.clone()
 
+// BASE
+draw.path('M -20 20 L 0 -14.641 L 20 20 z').center(base.x, base.y)
+.fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
+
+// Line
+
+
+// *** PowerTower ****
+var powerTower = powerTower.construct(draw).move(60,220)
 
 // define inital player score
 var powerGeneration = 0
@@ -382,9 +420,9 @@ var label2 = label1.clone().move(width-10, 40)
 
 var windspeed = 0.5
 
-var sliderX = 800
+var sliderX = 812
 var sliderYMax = 100
-var sliderYMin = 300
+var sliderYMin = 330
 var sliderXCurrent = 240
 
 function sliderYcurrent() {
@@ -402,14 +440,19 @@ sliderHandle.draggable({
 , maxY: sliderYMin+sliderHandleRadius
 })
 
+var windspeeds = [2, 8, 15, 25, 12].map( function(e) { return e/25 })
+var windspeedIndex = 0
 
-var windButton = draw.circle(40).center(sliderX, sliderYMin + 50).fill('#610699')
-  .click(function() {
-    windspeedTarget = Math.random()
-    sliderHandle.animate().center(sliderX, sliderYMin + (sliderYMax - sliderYMin) * windspeedTarget)
-  })
+// var windButton = draw.circle(40).center(sliderX, sliderYMin + 50).fill('#610699')
 
-var label3 = label1.clone().text('Change wind').move(sliderX-50, sliderYMin+50-16)
+
+var label3 = label1.clone().text('Change wind speed').move(width-10, sliderYMin + 20)
+.click(function() {
+  windspeedTarget = windspeeds[windspeedIndex % windspeeds.length]
+  windspeedIndex += 1
+  sliderHandle.animate().center(sliderX, sliderYMin + (sliderYMax - sliderYMin) * windspeedTarget)
+})
+.attr({'cursor': 'pointer'})
 
 
 function currentWindspeed() {
