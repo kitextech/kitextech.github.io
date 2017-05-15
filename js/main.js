@@ -301,6 +301,7 @@ var powerTower = {
 , lines: [[1,5,2,3,4], [6,7,8], [4,9,5,4,10,5]]
 , points: [2, 3, 6, 7]
 , scale: 1.6
+, cableOffset: 10
 
 , construct: function(draw) {
     var g = draw.group()
@@ -315,10 +316,14 @@ var powerTower = {
 
     this.points.map( function(pIndex) {
       var c = pt.coords[pIndex-1]
-      g.circle(4).fill('#000').center(c[0], c[1]+10)
+      g.circle(4).fill('#000').center(c[0], c[1]+pt.cableOffset)
     })
 
     return g
+    }
+
+, getAttachmentPoint: function(tower) {
+    return [tower.x() + this.coords[6][0] , tower.y() + this.coords[6][1] + this.cableOffset]
   }
 }
 
@@ -399,9 +404,28 @@ draw.path('M -20 20 L 0 -14.641 L 20 20 z').center(base.x, base.y)
 
 // Line
 
-
 // *** PowerTower ****
-var powerTower = powerTower.construct(draw).move(60,220)
+var pTower = powerTower.construct(draw).move(60,220)
+var pTowerA = powerTower.getAttachmentPoint(pTower)
+
+// base.x, base.y, pTowerA[0], pTowerA[1]
+var qx = (base.x+pTowerA[0])/2
+var qy = (base.y+pTowerA[1])/2+30
+var cable = draw.path(`M${base.x},${base.y} Q${qx},${qy} ${pTowerA[0]},${pTowerA[1]}`)
+.fill('none')
+.stroke({ width: 2, linecap: 'round', linejoin: 'round', color: '#333' })
+
+// Power Sign
+var powerSignState = 0
+
+var powerSign = draw.polygon('0,0 -6,17 -2,17 -8,34, 5,12 2,12 10,0').fill('none')
+.stroke({ width: 2, linecap: 'round', linejoin: 'round', color: '#FF8C00' })
+
+var cableLength = cable.length()
+function getCablePoint(powerState) {
+  return cable.pointAt(powerState*cableLength)
+}
+
 
 // define inital player score
 var powerGeneration = 0
@@ -465,13 +489,13 @@ function powerOutput(ratio, cableState, transitionState) {
   }
 
   if (cableState != 1) {
-    return -100
+    return -0.1
   }
 
   if (ratio >= 0.2 && ratio < 0.5) {
-    return ratio * 2000 * transitionState
+    return ratio * 2 * transitionState
   } else  {
-    return 1000 * transitionState
+    return 1 * transitionState
   }
 }
 
@@ -481,6 +505,9 @@ function update(dt) {
 
   var windspeed = currentWindspeed()
   var stateDirection = (windspeed < 0.9 && windspeed > 0.2) ? 1 : -1
+  var output = powerOutput(windspeed, kite1.cable(), kite1.transition())
+  powerSignState += dt * output
+  powerSignState = (powerSignState+1)%1
 
   kite1.update(dt, stateDirection, windspeed)
   kite2.update(dt, stateDirection, windspeed)
@@ -490,8 +517,11 @@ function update(dt) {
   line2.plot.apply(line2, tether.getTether1())
   line3.plot.apply(line3, tether.getTether2())
 
-  label1.text( powerOutput(windspeed, kite1.cable(), kite1.transition()).toFixed(0) + ' kW')
-  label2.text( (windspeed * 25).toFixed(0) + ' m/s')
+  label1.text( (1000 * output).toFixed(0) + ' kW')
+  label2.text( (25 * windspeed).toFixed(0) + ' m/s')
+
+  let cp = getCablePoint(powerSignState)
+  powerSign.center(cp.x, cp.y)
 }
 
 var lastTime, animFrame
