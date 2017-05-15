@@ -1,7 +1,7 @@
 ---
 layout: default
 category: blog
-description: A carbon copy of questions and answers from our Ycombinator summer 2017 batch application.
+description: Reflections on our YC2017S interview and what we learned.
 ---
 
 # Why we didn’t deserve YC funding (and also didn’t get any)
