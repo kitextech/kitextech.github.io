@@ -338,7 +338,7 @@ draw.viewbox(0,0,width,height)
 draw.attr({preserveAspectRatio:"xMinYMin meet"})
 
 // draw background
-var background = draw.rect(width, height).fill('#dde3e1')
+// var background = draw.rect(width, height).fill('none').
 var base = {x: 280, y: 360}
 
 // *** KITES ****
@@ -418,7 +418,7 @@ var cable = draw.path(`M${base.x},${base.y} Q${qx},${qy} ${pTowerA[0]},${pTowerA
 // Power Sign
 var powerSignState = 0
 
-var powerSign = draw.polygon('0,0 -6,17 -2,17 -8,34, 5,12 2,12 10,0').fill('none')
+var powerSign = draw.polygon('0,0 -6,17 -2,17 -8,34, 5,12 2,12 10,0').fill('#FF8C00')
 .stroke({ width: 2, linecap: 'round', linejoin: 'round', color: '#FF8C00' })
 
 var cableLength = cable.length()

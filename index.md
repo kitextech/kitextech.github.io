@@ -11,6 +11,10 @@ We now have two kites that are capable of hovering and ready for more flight tes
 ## What are you making?
 We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.
 
+<div id="drawing"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
+<script src="/js/main.js"></script>
+
 ### How does it work?
 
 A stiff kite made of carbon fibre and sized like a small plane is connected via a kilometre long tether to a base station and flies some 200 meters above the sea. The wind causes the kite to fly around in large circles at speeds significantly faster than the wind.
