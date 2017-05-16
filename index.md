@@ -3,10 +3,8 @@ layout: default
 title: {{ site.name }}
 ---
 
-**Latest: April 8th**
-We now have two kites that are capable of hovering and ready for more flight testing! Time to work on the flight control and transition manoeuvre from hover to fixed wing wind driven flight.
-
-![Two complete SuperQ kites ready](/images/SuperQTwoKites.jpg)
+**Latest: April 20th**
+We now have two kites that are capable of hovering and have managed to do transitions and even go into looping. Next step is to fine tune looping and then loop both kites simultaneously.
 
 ## What are you making?
 We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.
