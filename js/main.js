@@ -286,9 +286,9 @@ SVG.Kite = SVG.invent({
       newKite.baseX = (typeof o.baseX !== 'undefined') ?  o.baseX : 200;
       newKite.baseY = (typeof o.baseY !== 'undefined') ?  o.baseY : 300;
       newKite.rotationX = (typeof o.rotationX !== 'undefined') ?  o.rotationX : 550;
-      newKite.rotationY = (typeof o.rotationY !== 'undefined') ?  o.rotationY : 100;
+      newKite.rotationY = (typeof o.rotationY !== 'undefined') ?  o.rotationY : 150;
       newKite.phaseOffset = (typeof o.phaseOffset !== 'undefined') ?  o.phaseOffset : 0;
-      newKite.radius = (typeof o.radius !== 'undefined') ?  o.radius : 100;
+      newKite.radius = (typeof o.radius !== 'undefined') ?  o.radius : 80;
 
       return newKite
     }
