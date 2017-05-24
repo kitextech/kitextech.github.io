@@ -26,8 +26,9 @@ Most turbines is designed with a 20 year lifespan and an expected service cost o
 
 | Rated Power   | Typical cost ' | Cost per watt ' | Example model |
 | ------------- |---------------------:| ---------------:| ------------- |
-| 100 kW        | € 120,000             | € 1.2           | KiteX k100          |
-| 1,000 kW      | € 1,200,000            | € 1.2           | KiteX M1            |
+| 100 kW        | € 120,000            | € 1.2           | KiteX k100    |
+| 1,000 kW      | € 1,200,000          | € 1.2           | KiteX M1      |
+| 5,000 kW      | € 6,000,000          | € 1.2           | KiteX M5      |
 
 ' Cost without profit for the turbine. We are of cause not going to sell them this cheaply..!
 
