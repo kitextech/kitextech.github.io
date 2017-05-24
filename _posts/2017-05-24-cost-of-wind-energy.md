@@ -57,8 +57,8 @@ Let's try and compare a typical wind turbine with a KiteX wind turbine to unders
 *Cost Assumption and things to note:*
 
 * Main cost saving comes from the reduced cost of the tower, rotor and foundation.
-* In this example we compared to a turbine with a gearbox and a "cheap" generator. This motor plus generator system of the kite system should be much cheaper since it's operated at much higher RPM.  
-* Power electronics in the Kite is more expensive since extra conversion steps is needed to transmit the power through the tether and full bi-directional transformation i needed for the hovering phase.
+* In this example we compared to a turbine with a gearbox and a "cheap" generator. The motor-generator system of the kite is much cheaper than the comparable system since it's operated at much higher RPM.  
+* Power electronics in the kite is more expensive since extra conversion steps is needed to transmit the power through the tether and full bi-directional transformation is needed to hover.
 * The price for the main wing and propellers for the kite could drop with as much as 70% as production volume of carbon fiber components increases over the next 10 years.
 * Tether prices is purely based on the cost a standard aluminium single core power cables plus the required Dyneema line for tension.
 * The ground station cost is a very rough estimate.     
