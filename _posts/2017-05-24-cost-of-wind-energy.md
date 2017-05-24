@@ -1,7 +1,7 @@
 ---
 layout: default
 category: secret
-description: The story of how we didn't get in to Y Combinator (this time)
+description: Cost competitiveness analysis of a KiteX Turbines
 ---
 
 # Cost of wind turbines turbines
@@ -38,22 +38,22 @@ Most turbines is designed with a 20 year lifespan and an expected service cost o
 Let's try and compare a typical wind turbine with a KiteX wind turbine to understand give a better insight to why our system can be so much cheaper. We will compare the 1MW model
 
 
-| Component | Conventional 1 MW (k€) | KiteX M1 (k€) |
-|-----------|-------------------------------:|--------------:|
-| Tower / Tether | 337 | 22|
-| Rotor / Main wing + Propellers | 302 | 132|
-| Gearbox | 165 | - |
-| Generator | 44 | 100 |
-| Power converters | 64 | 85 |
-| Transformers | 46 | 65 |
-| Main bearing/swivel | 16 | 50 |
-| Ground station | - | 100 |
-| Other | 307 | 200 |
-|  |  |  |
-| Foundation | 320 | 32 |
-| Grid connection | 220 | 220 |
-| Planning and misc. | 180 | 180 |
-| **Turbine incl. onshore foundation** | **2000** | **1186** |
+| Component                            | Conventional 1 MW (k€)         | KiteX M1 (k€) |
+|--------------------------------------|-------------------------------:|--------------:|
+| Tower / Tether                       | 337                            | 22            |
+| Rotor / Main wing + Propellers       | 302                            | 132           |
+| Gearbox                              | 165                            | -             |
+| Generator                            | 44                             | 100           |
+| Power converters                     | 64                             | 85            |
+| Transformers                         | 46                             | 65            |
+| Main bearing/swivel                  | 16                             | 50            |
+| Ground station                       | -                              | 100           |
+| Other                                | 307                            | 200           |
+|                                      |                                |               |
+| Foundation                           | 320                            | 32            |
+| Grid connection                      | 220                            | 220           |
+| Planning and misc.                   | 180                            | 180           |
+| **Turbine incl. onshore foundation** | **2000**                       | **1186**      |
 
 *Cost Assumption and things to note:*
 
