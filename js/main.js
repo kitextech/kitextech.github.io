@@ -237,6 +237,7 @@ SVG.Kite = SVG.invent({
     // current phase of the kite
     state: 0,
     phase: 0,
+    kiteOrientation: Math.PI,
     updateState: function(dt, direction) {
       var speed = this.transition() > 0 ? 1 : 0.5
       this.state += speed * dt * direction
@@ -253,25 +254,36 @@ SVG.Kite = SVG.invent({
     },
 
     xpos: function() {
-      return this.cable() * (this.rotationX + this.radius * Math.cos(this.phase + this.phaseOffset)) +
+      return this.cable() * (this.rotationX + this.radius * Math.sin(this.phase)) +
         (1-this.cable()) * this.baseX
     },
     ypos: function() {
-      return this.cable() * (this.rotationY + this.radius * Math.sin(this.phase + this.phaseOffset)) +
+      return this.cable() * (this.rotationY - this.radius * Math.cos(this.phase)) +
         (1-this.cable()) * this.baseY
     },
 
     update: function(dt, stateDirection, windspeed) {
       this.updateState(dt, stateDirection)
       this.phase += dt * 3 * windspeed * this.transition()
-      this.phase = this.phase > 2 * Math.PI ? this.phase - 2*Math.PI : this.phase
+
+      var phaseRemainder = this.phase%(2*Math.PI) - Math.PI
+      var phaseBase = this.phase - phaseRemainder
+
+      var kiteOrientationDiff
+      if (stateDirection > 0 && this.transition() > 0) {
+        kiteOrientationDiff = this.phase - this.kiteOrientation - Math.PI/2
+      } else {
+        kiteOrientationDiff = phaseBase - this.kiteOrientation
+      }
+
+      this.kiteOrientation += Math.abs(kiteOrientationDiff) < 8*dt ? kiteOrientationDiff : 8*dt * Math.sign(kiteOrientationDiff)
 
       this.transform({
         x: this.xpos(),
         y: this.ypos()
       })
       .transform({
-        rotation: this.transition() * (this.phase + this.phaseOffset + Math.PI) % (2*Math.PI) / Math.PI * 180 + 180
+        rotation: this.kiteOrientation*180/Math.PI // (this.transition() * phaseRemainder Math.PI) / Math.PI * 180
       })
 
       return this
@@ -287,7 +299,7 @@ SVG.Kite = SVG.invent({
       newKite.baseY = (typeof o.baseY !== 'undefined') ?  o.baseY : 300;
       newKite.rotationX = (typeof o.rotationX !== 'undefined') ?  o.rotationX : 550;
       newKite.rotationY = (typeof o.rotationY !== 'undefined') ?  o.rotationY : 150;
-      newKite.phaseOffset = (typeof o.phaseOffset !== 'undefined') ?  o.phaseOffset : 0;
+      newKite.phase = (typeof o.phaseOffset !== 'undefined') ?  o.phaseOffset : 0;
       newKite.radius = (typeof o.radius !== 'undefined') ?  o.radius : 80;
 
       return newKite
