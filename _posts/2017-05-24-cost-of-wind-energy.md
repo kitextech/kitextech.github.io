@@ -10,11 +10,7 @@ A analysis of the competitiveness of KiteX systems vs traditional turbines.
 
 ## Cost of traditional wind turbines
 
-<<<<<<< HEAD
-Traditional cost of an installed wind turbine for different capacities.
-=======
-Traditional cost of a installed wind turbine - including project planing, foundation, transportation and installation for different sizes.
->>>>>>> 7d1a99deadaa9c56a6db98ac7d8406e7fb228f80
+Cost of a traditional wind turbine - including project planing, foundation, transportation and installation for different sizes.
 
 | Rated Power   | Typical price | Price per watt | Example model                   |
 | ------------- |--------------:| --------------:| ------------------------------- |
