@@ -10,7 +10,11 @@ A analysis of the competitiveness of KiteX systems vs traditional turbines.
 
 ## Cost of traditional wind turbines
 
+<<<<<<< HEAD
 Traditional cost of an installed wind turbine for different capacities.
+=======
+Traditional cost of a installed wind turbine - including project planing, foundation, transportation and installation for different sizes.
+>>>>>>> 7d1a99deadaa9c56a6db98ac7d8406e7fb228f80
 
 | Rated Power   | Typical price | Price per watt | Example model                   |
 | ------------- |--------------:| --------------:| ------------------------------- |
@@ -21,6 +25,15 @@ Traditional cost of an installed wind turbine for different capacities.
 | 10 MW         | € 20,000,000  | € 2            | MHI-Vestas V164                 |
 
 Most turbines are designed with a 25 year lifespan and an expected service cost of about 20% of the initial investment. The average capacity factor (the ratio between produced power and the potential power output if operating at rated power consistently) of modern turbine system is about 30%.
+
+References: [1 kW](http://www.reuk.co.uk/wordpress/wind/airdolphin-wind-turbine/),
+[10 kW](http://www.futurenergy.co.uk/10kwturbine.html),
+[100 kW a](http://windenergyfoundation.org/wind-at-work/wind-consumers/wind-power-your-home/),
+[100 kW b](http://eeagrants.org/project-portal/project/ES02-0048),
+[100 kW c](http://www.microgenwind.com/index.php/turbines/turbines2),
+[1,000 kW kw](http://www.renewablesfirst.co.uk/windpower/windpower-learning-centre/how-much-does-a-farm-wind-turbine-small-wind-farm-turbine-cost/),
+[10,000 kW a](http://www.esru.strath.ac.uk/EandE/Web_sites/14-15/XL_Monopiles/cost.html),
+[10,000 kW b](https://www.google.dk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwiclIz-2YrUAhVSI1AKHb7QA84QFggyMAI&url=https%3A%2F%2Fwww.irena.org%2FDocumentDownloads%2FPublications%2FRE_Technologies_Cost_Analysis-WIND_POWER.pdf&usg=AFQjCNFdYiayYPqU2SjGvMNFWSxojB30BA&sig2=YrLVdizUy5OcR1ZLdNOmJg)
 
 ## Cost of KiteX turbines
 
