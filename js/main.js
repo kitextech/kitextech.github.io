@@ -225,6 +225,22 @@
 }).call(this);
 
 
+
+function linearInterpolate(x1, x2, ratio) {
+  return x1 * ratio + x2 * (1-ratio)
+}
+
+SVG.extend(SVG.Line, {
+  pointAtRatio: function(ratio) {
+    var line = this.array().toLine()
+    return {
+      x: linearInterpolate(line.x1, line.x2, ratio),
+      y: linearInterpolate(line.y1, line.y2, ratio)
+    }
+  }
+})
+
+
 SVG.Kite = SVG.invent({
   // Define the type of element that should be created
   create: 'polygon'
@@ -388,10 +404,10 @@ var tether = {
     this.y2 = y2
   },
   joinPosX: function() {
-    return (this.x1+this.x2)/2 * (this.mainRatio) + this.baseX *(1-this.mainRatio)
+    return linearInterpolate((this.x1+this.x2)/2, this.baseX, this.mainRatio)
   },
   joinPosY: function() {
-    return (this.y1+this.y2)/2 * (this.mainRatio) + this.baseY *(1-this.mainRatio)
+    return linearInterpolate((this.y1+this.y2)/2, this.baseX, this.mainRatio)
   },
   getMainTether: function(){
     return [this.baseX, this.baseY, this.joinPosX(), this.joinPosY()]
@@ -406,9 +422,9 @@ var tether = {
 
 tether.setBase(base.x, base.y)
 
-var line1 = draw.line().stroke({ width: 3, color: '#222', linecap: 'round', linejoin: 'round' })
-var line2 = line1.clone()
-var line3 = line1.clone()
+var lineMT = draw.line().stroke({ width: 3, color: '#222', linecap: 'round', linejoin: 'round' })
+var lineT1 = lineMT.clone()
+var lineT2 = lineMT.clone()
 
 // BASE
 draw.path('M -20 20 L 0 -14.641 L 20 20 z').center(base.x, base.y)
@@ -432,10 +448,18 @@ var powerSignState = 0
 
 var powerSign = draw.polygon('0,0 -6,17 -2,17 -8,34, 5,12 2,12 10,0').fill('#FF8C00')
 .stroke({ width: 2, linecap: 'round', linejoin: 'round', color: '#FF8C00' })
+var powerSign2 = powerSign.clone()
 
 var cableLength = cable.length()
-function getCablePoint(powerState) {
-  return cable.pointAt(powerState*cableLength)
+
+function getCablePoint(state, index) {
+  if (state < 0.2) {
+    return index == 1 ? lineT1.pointAtRatio(state/0.2) : lineT2.pointAtRatio(state/0.2)
+  } else if (state < 0.7) {
+    return lineMT.pointAtRatio((state-0.2)/0.5)
+  } else {
+    return cable.pointAt((state-0.7)/0.3*cableLength)
+  }
 }
 
 
@@ -518,22 +542,28 @@ function update(dt) {
   var windspeed = currentWindspeed()
   var stateDirection = (windspeed < 0.9 && windspeed > 0.2) ? 1 : -1
   var output = powerOutput(windspeed, kite1.cable(), kite1.transition())
-  powerSignState += dt * output
+  powerSignState += 0.3 * dt * output
   powerSignState = (powerSignState+1)%1
 
   kite1.update(dt, stateDirection, windspeed)
   kite2.update(dt, stateDirection, windspeed)
   tether.setKitePositions(kite1.xpos(), kite1.ypos(), kite2.xpos(), kite2.ypos())
 
-  line1.plot.apply(line1, tether.getMainTether())
-  line2.plot.apply(line2, tether.getTether1())
-  line3.plot.apply(line3, tether.getTether2())
+  lineMT.plot.apply(lineMT, tether.getMainTether())
+  lineT1.plot.apply(lineT1, tether.getTether1())
+  lineT2.plot.apply(lineT2, tether.getTether2())
 
   label1.text( (1000 * output).toFixed(0) + ' kW')
-  label2.text( (25 * windspeed).toFixed(0) + ' m/s')
+  label2.text( (powerSignState).toFixed(2) + ' ')
 
-  let cp = getCablePoint(powerSignState)
+  // label2.text( (25 * windspeed).toFixed(0) + ' m/s')
+
+  let cp = getCablePoint(powerSignState, 1)
+  let cp2 = getCablePoint(powerSignState, 2)
   powerSign.center(cp.x, cp.y)
+  powerSign2.center(cp2.x, cp2.y)
+  powerSign.opacity(output == 0 ? 0 : 1)
+  powerSign2.opacity(output == 0 ? 0 : 1)
 }
 
 var lastTime, animFrame
