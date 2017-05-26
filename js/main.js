@@ -554,9 +554,8 @@ function update(dt) {
   lineT2.plot.apply(lineT2, tether.getTether2())
 
   label1.text( (1000 * output).toFixed(0) + ' kW')
-  label2.text( (powerSignState).toFixed(2) + ' ')
-
-  // label2.text( (25 * windspeed).toFixed(0) + ' m/s')
+  // label2.text( (powerSignState).toFixed(2) + ' ')
+  label2.text( (25 * windspeed).toFixed(0) + ' m/s')
 
   let cp = getCablePoint(powerSignState, 1)
   let cp2 = getCablePoint(powerSignState, 2)
