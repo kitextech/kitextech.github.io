@@ -3,7 +3,7 @@ layout: default
 title: {{ site.name }}
 ---
 
-**Latest: April 20th**
+**Latest: July 18th**
 We now have two kites that are capable of hovering and have managed to do transitions and even go into looping. Next step is to fine tune looping and then loop both kites simultaneously.
 
 ## What are you making?
