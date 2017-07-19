@@ -5,6 +5,26 @@ layout: default
 # Prototype Developments
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
+
+### Physics simulation
+**July 19th**
+To develop new control strategies and kite designs we have developed a new kite/drone physics simulation. **[Detailed description.](/blog/kite-energy-sim)**
+<video autoplay loop>
+  <source src="/video/kiteEnergySimulation.mp4" type="video/mp4">
+Your browser does not support the video tag. A Video of a kite energy simulation would be here.
+</video>
+
+### Upgrade transition algorithms
+**July 16th**
+We decided to try and improve the robustness of our transition algorithm (from hovering to flying like a kite/plane in the wind)
+**[Video: Improved VTOL transition.](https://youtu.be/OlNdLrQOFSE)**
+<video autoplay loop>
+  <source src="/video/improvedVTOL.mp4" type="video/mp4">
+Your browser does not support the video tag. A video of the transition should be here.
+</video>
+
+
+
 ### SuperQ Two kites
 **April 8th**
 We now have two kites that are capable of hovering and ready for more flight testing! Time to work on the flight control and transition manoeuvre from hover to fixed wing wind driven flight.

@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 
 **Latest: July 18th**
-We now have two kites that are capable of hovering and have managed to do transitions and even go into looping. Next step is to fine tune looping and then loop both kites simultaneously.
+To develop new control strategies and kite designs we have developed a new kite/drone physics simulation. **[Detailed description.](/blog/kite-energy-sim)**
 
 ## What are you making?
 We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.
