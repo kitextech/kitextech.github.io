@@ -7,30 +7,11 @@ title: {{ site.name }}
 To develop new control strategies and kite designs we have developed a new kite/drone physics simulation. **[Detailed description.](/blog/kite-energy-sim)**
 
 ## What are you making?
-We build a new type of wind turbine that consists of very large fixed wing kites that can generate energy using a fraction of the material a traditional wind turbine requires. This translates to lower costs and simpler maintenance.
+We build a new type of wind turbine that utalise drone technology to autonomously control flying wing tethered to the ground. The Airbone Wind Turbine (AWT) can generate energy using a fraction of the material a Conventional Wind Turbine (CWT) requires. This translates to lower costs and simpler maintenance.
 
 <div id="drawing"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
 <script src="/js/main.js"></script>
-
-### How does it work?
-
-A stiff kite made of carbon fibre and sized like a small plane is connected via a kilometre long tether to a base station and flies some 200 meters above the sea. The wind causes the kite to fly around in large circles at speeds significantly faster than the wind.
-
-![Kite Energy Concept](/images/workPart1@2x.png){:class="width50percent"}
-
-On the wings of the kite are mounted small turbines that are made to rotate when the kite flies through the air. They are connected to generators that produce electricity, which is then sent down the wire to the base station
-
-![Kite Energy Concept](/images/workPart2@2x.png){:class="width50percent"}
-
-When the wind drops or there is a storm coming, the kite automatically flies down to the base station in the manner of a quadcopter.
-
-![Kite Energy Concept](/images/workPart3@2x.png){:class="width50percent"}
-
-
-The kite then stays on the base station until the weather conditions improve, at which point it will fly back out, again automatically, to its normal position and start generating power again.
-
-![Kite Energy Concept](/images/workPart4@2x.png){:class="width50percent"}
 
 ## Pitch
 We have applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
@@ -38,7 +19,7 @@ We have applied to YCombinator, a Silicon Valley accelerator program, to join th
 In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
 
 ### Why are kites better?
-Traditional wind turbines are often the preferred solutions when creating new power plants due their low price per watt and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+Conventional wind turbines are often the preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
 ![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
@@ -55,37 +36,31 @@ In order to promote this future the company KiteX will be focusing on research a
 
 ## <a name="team-link" class="anchor"></a>Team
 
-### Andreas Bruun Okholm
-I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
+### Core team
 
-I have for a long time been fascinated by the power of kites, and been using them for surfing for the past 10+ years. Being able to work with kites is really fascinating and I find that it allows me to make use of most of my toolset: mechanical engineering, aerodynamics, programming, startups and most importantly it gives a feeling of making a positive impact.
+| --- |---:|
+| ![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}       | **Andreas Bruun Okholm**    <br /> *Co-founder:* Aircraft Design, Control Strategy. <br /> MSc aerospace engineering. Successful wind/aero startup. |
+| ![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}   | **Gustaf Kugelberg**        <br /> *Co-founder:* Mathematical modelling, Software architecture. <br /> MSc theoretical physics. X-Management Consultant.  App developer. |
+| ![Aldus von der Burg](/images/profile/aldusVonDerBurg.jpg){:class="profilePicture"} | **Aldus von der Burg**      <br /> *Project Engineer:* Project planning, Documentation, Partnerships. <br /> BSc Automotive Enginnering. |
+| ![Mathias Rask](/images/profile/mathiasRask.jpg){:class="profilePicture"}           | **Mathias Rask**            <br /> *Mechanical Engineer:* Mechanical design, Structural and Fluid analysis. <br /> MSc mechanical engineering. Robust Design Expert.  |
 
-![Wind meter testing in Norway]({{ site.github.url }}/images/AndreasNorway.jpg)
+### Key Advisors
 
-### Gustaf Kugelberg
+| --- |---:|
+| ![Mac Gaunaa](/images/profile/macGaunaa.jpeg){:class="profilePicture"}             | **Mac Gaunaa**     <br /> PhD aerodynamics. <br /> 19 years experience working with wind turbine aerodynamics and aeroelasticity at DTU. Previous experience with AWT modelling |
+| ![Marc Münzer](/images/profile/marcMunzer.jpg){:class="profilePicture"}           | **Marc Münzer**     <br /> European patent attorney, Co-Founder Guardian IP Consulting, PhD Electromechanical system design, Co-Founder Icebreakernordic.com, Co-Founder StartupWorks.dk |
+| ![Rolf Østergaard](/images/profile/rolfOestergaard.jpg){:class="profilePicture"}  | **Rolf Østergaard** <br /> Founder of SENSITIVUS gauge / Team ZWATT. Advanced bike sensor technology. Very experienced M.Sc.EE with hard earned startup business skills. |
 
-An avid kitesurfer since 8 years, my educational background is in pure and applied mathematics, with a touch of liberal arts -- I took a M. Sc. Eng. in technical physics, and studied mathematics, Archaeology, Greek, Latin, Russian and Japanese on the side.
 
-I have worked as a management consultant at Oliver Wyman, helped launch a small but very successful compensation consultancy, advised startups in industries ranging from construction innovations to mineral prospecting and for the last 5 years I have also been developing software, most notably for Vaavud, mentioned above, and Realm.
+### Investors
 
-![Gustaf in Amman, Jordan]({{ site.github.url }}/images/profilephoto.jpg)
+| --- |---:|
+| ![Cong Wang](/images/profile/congWang.jpg){:class="profilePicture"}       | **Cong Wang**    <br /> Entrepreneur and Business Angel. |
+| ![Neil Murray](/images/profile/neilMurray.jpg){:class="profilePicture"}   | **Neil Murray**  <br /> Founding Editor of The Nordic Web |
 
 
 ### Want to team up?
-Do you share our vision for a the kite powered future? Get in touch!
-
-
-## Key Advisors
-
-### Mac Gaunaa
-Mac Gaunaa is a senior researcher at Technical University of Denmark department of Wind Energy working with wind turbine aerodynamics and aeroelasticity. Mac has a PhD in fluid mechanics, has 19 years of experience with fluid dynamics and aerodynamics, and is one of a few researchers in Denmark with experience in aerodynamics and performance modeling of energy kite systems.
-
-### Marc Münzer
-Marc has over 10 years of experience working with intellectual property. Further Marc has PhD in electromechanical systems design and a background in fluid mechanics.
-
-### Rolf Østergaard
-With over 25 years of electronic hardware development experience. Rolf has a huge professional network and is a valuable critical resource when it comes to strategic decisions and anything electronic.
-
+Do you share our vision for a the kite powered future? Get in touch! We are currently especially looking for someone who would like to design the power electronics.
 
 ## <a name="progress-link" class="anchor"></a>Progress
 Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous self-starting and landing kite. Steps 1 and 2 below are the progressions towards this.

@@ -4,6 +4,24 @@ layout: default
 
 # Critical Questions
 
+## How does it work?
+
+A rigid wing made of composite material is connected via a conducting tether to the ground station. The wing is flying through the air about 10 times faster than the wind speed generating a large lift force which keeps the wing afloat and pushes the wing forward.
+
+![Kite Energy Concept](/images/workPart1@2x.png){:class="width50percent"}
+
+On the wing are mounted small turbines that are made to rotate when the kite flies through the air. They are connected to generators that produce electricity, which is then sent down the wire to the ground station.
+
+![Kite Energy Concept](/images/workPart2@2x.png){:class="width50percent"}
+
+When the wind drops or there is a storm coming, the kite automatically flies down to the base station in the manner of a quadcopter.
+
+![Kite Energy Concept](/images/workPart3@2x.png){:class="width50percent"}
+
+The kite then stays on the base station until the weather conditions improve, at which point it will fly back out, again automatically, to its normal position and start generating power again.
+
+![Kite Energy Concept](/images/workPart4@2x.png){:class="width50percent"}
+
 ## Do you have any scientific support for claiming that dual kites is significantly more efficient?
 The potential benefits of putting two kites on a single tether have been known for some time. It first appeared in the very first patent about high altitude wind energy in 1976 (1) and was described as the so-called ‘dancing planes’ concepts.
 

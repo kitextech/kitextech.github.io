@@ -292,6 +292,10 @@ nav li a {
     text-decoration: none;
 }
 
+img.profilePicture {
+  max-width: 100px
+}
+
 /* Change the link color on hover */
 nav li a:hover {
     background-color: #555;
