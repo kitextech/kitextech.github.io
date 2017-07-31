@@ -47,6 +47,7 @@ In order to promote this future the company KiteX will be focusing on research a
 ### Key Advisors
 
 | --- |---:|
+| ![Philipp Neff](/images/profile/philippNeff.jpg){:class=“profilePicture}|.           | **Philipp Neff** <br /> somethihng <br />|
 | ![Mac Gaunaa](/images/profile/macGaunaa.jpeg){:class="profilePicture"}             | **Mac Gaunaa**     <br /> PhD aerodynamics. <br /> 19 years experience working with wind turbine aerodynamics and aeroelasticity at DTU. Previous experience with AWT modelling |
 | ![Marc Münzer](/images/profile/marcMunzer.jpg){:class="profilePicture"}           | **Marc Münzer**     <br /> European patent attorney, Co-Founder Guardian IP Consulting, PhD Electromechanical system design, Co-Founder Icebreakernordic.com, Co-Founder StartupWorks.dk |
 | ![Rolf Østergaard](/images/profile/rolfOestergaard.jpg){:class="profilePicture"}  | **Rolf Østergaard** <br /> Founder of SENSITIVUS gauge / Team ZWATT. Advanced bike sensor technology. Very experienced M.Sc.EE with hard earned startup business skills. |
