@@ -7,19 +7,19 @@ title: {{ site.name }}
 To develop new control strategies and kite designs we have developed a new kite/drone physics simulation. **[Detailed description.](/blog/kite-energy-sim)**
 
 ## What are you making?
-We build a new type of wind turbine that utalise drone technology to autonomously control flying wing tethered to the ground. The Airbone Wind Turbine (AWT) can generate energy using a fraction of the material a Conventional Wind Turbine (CWT) requires. This translates to lower costs and simpler maintenance.
+We build a new type of wind turbine that utilises drone technology to autonomously control a flying wing tethered to the ground. The Airbone Wind Turbine (AWT) can generate energy using a fraction of the material a Conventional Wind Turbine (CWT) requires. This translates into lower costs and simpler maintenance.
 
 <div id="drawing"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
 <script src="/js/main.js"></script>
 
 ## Pitch
-We have applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
+We (unsuccesfully) applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
 
 In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
 
 ### Why are kites better?
-Conventional wind turbines are often the preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+Conventional wind turbines are often a preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
 ![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
