@@ -41,7 +41,7 @@ In order to promote this future the company KiteX will be focusing on research a
 | --- |---:|
 | ![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}       | **Andreas Bruun Okholm**    <br /> *Co-founder:* Aircraft Design, Control Strategy. <br /> MSc aerospace engineering. Successful wind/aero startup. |
 | ![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}   | **Gustaf Kugelberg**        <br /> *Co-founder:* Mathematical modelling, Software architecture. <br /> MSc theoretical physics. X-Management Consultant.  App developer. |
-| ![Aldus von der Burg](/images/profile/aldusVonDerBurg.jpg){:class="profilePicture"} | **Aldus von der Burg**      <br /> *Project Engineer, spare time:* Project planning, Documentation, Partnerships. <br /> BSc Automotive Enginnering. |
+| ![Aldus von der Burg](/images/profile/aldusVonDerBurg.jpg){:class="profilePicture"} | **Aldus von der Burg**      <br /> *Project Engineer, part time:* Project planning, Documentation, Partnerships. <br /> BSc Automotive Enginnering. |
 
 ### Key Advisors
 
