@@ -3,8 +3,8 @@ layout: default
 title: {{ site.name }}
 ---
 
-**Latest: July 18th**
-To develop new control strategies and kite designs we have developed a new kite/drone physics simulation. **[Detailed description.](/blog/kite-energy-sim)**
+**Latest: August 24th**
+Finally completed the first autonomous looping proving all different flight modes necessary for energy generation. **[Prototype developments](/prototypes)**
 
 ## What are you making?
 We build a new type of wind turbine that utilises drone technology to autonomously control a flying wing tethered to the ground. The Airbone Wind Turbine (AWT) can generate energy using a fraction of the material a Conventional Wind Turbine (CWT) requires. This translates into lower costs and simpler maintenance.

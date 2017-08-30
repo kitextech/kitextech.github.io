@@ -5,6 +5,15 @@ layout: default
 # Prototype Developments
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
+### Autonomous looping
+**August 24th**
+Finally completed full autonomous looping in crosswind flight. We still need to do a few more tweaks for the control algorithm, but soon we can move on to dual kite testig.
+**[Video: Autonomous looping with HUD](https://youtu.be/Kbe4u23m5MM)**
+<video autoplay loop>
+  <source src="/video/autonomousLoop.mp4" type="video/mp4">
+Your browser does not support the video tag. A video of the transition should be here.
+</video>
+
 
 ### Physics simulation
 **July 19th**
