@@ -14,7 +14,6 @@ We are building a new type of flying wind turbine that can make wind power acces
 <script src="/js/main.js"></script>
 
 ## Pitch
-In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
 
 ### The advantage of kites
 Conventional wind turbines are often a preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a means of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
@@ -28,6 +27,9 @@ While kites have been used to harness the power of the wind for utilitarian purp
 
 ### YC application
 We applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, so in order not duplicate the description and for those interested in the actual application we have decided to put it online as it is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
+
+### Questions
+In case you have unanswered technical questions you may find an answer under [critical questions](http://kitex.tech/critical-questions/). Please contact us if there is anything you want to hear more about.
 
 ## Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
@@ -92,5 +94,6 @@ Njalsgade 21G, 7th floor,
 
 Company Name: KiteX IVS
 CVR: DK38029126
-Mail: andreas at kitex.tech
+Mail to Andreas: andreas at kitex.tech
+Mail to Gustaf: kugel at kitex.tech
 ```
