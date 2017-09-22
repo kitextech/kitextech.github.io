@@ -16,7 +16,7 @@ We are building a new type of flying wind turbine that can make wind power acces
 ## Pitch
 
 ### The advantage of kites
-Conventional wind turbines are often a preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a means of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+Conventional wind turbines are often a preferred solution when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a means of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
 ![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
