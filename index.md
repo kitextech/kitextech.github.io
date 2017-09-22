@@ -6,30 +6,30 @@ title: {{ site.name }}
 **Latest: August 24th**
 Finally completed the first autonomous looping proving all different flight modes necessary for energy generation. **[Prototype developments](/prototypes)**
 
-## What are you making?
-We build a new type of wind turbine that utilises drone technology to autonomously control a flying wing tethered to the ground. The Airbone Wind Turbine (AWT) can generate energy using a fraction of the material a Conventional Wind Turbine (CWT) requires. This translates into lower costs and simpler maintenance.
+## Product
+We are building a new type of flying wind turbine that can make wind power accessible for many more locations, as well as significantly cheaper. It utilises drone technology to autonomously control a flying wing tethered to the ground, and this wing acts as the blade of a traditional wind turbine. Because it needs no tower, only a small foundation and uses its "blades" (the wings) much more efficiently, it only needs a fraction of the material of a conventional system, for the same power output. This is where costs are saved, and it is the reason it can be installed almost anywhere, without large cranes and other expensive infrastructure.
 
 <div id="drawing"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
 <script src="/js/main.js"></script>
 
 ## Pitch
-We (unsuccesfully) applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, in order not duplicate the description and for those interested in the actual application we have decided to put it online as is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
-
 In case you have unanswered technical questions we have tried to answer most of them on up front [critical questions](http://kitex.tech/critical-questions/)
 
-### Why are kites better?
-Conventional wind turbines are often a preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a mean of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
+### The advantage of kites
+Conventional wind turbines are often a preferred solutions when creating new power plants due their low cost of energy and low environmental impact. **Using kites as a means of capturing wind energy has the potential to significantly reduce the cost of energy, not just compared to other renewable sources.**
 
 ![Kite Energy Concept](/images/sweptArea.png){:class="width50percent"}
 
-The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional wind turbine using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the wings (which capture very little energy).
+The amount of energy that you can extract from the wind is broadly proportional to the **swept area** (the area that e.g. the wings of a wind turbine cover as they rotate). Using a large kite tethered to the ground you can cover the same swept area as the wings of a traditional wind turbine using a significantly lighter support structure. The tether replaces most of the tower and foundation, as well as the inner parts of the blades (which capture very little energy).
 
 ### Computing power
-
 While kites have been used to harness the power of the wind for utilitarian purposes since ancient times (lifting men, pulling cargo etc) wind power stations using kites are only appearing now. This is due in large part to the fact that they, especially the most efficient variants, require relatively sophisticated computer control systems. The dramatic fall in the cost of computing power makes kite energy a much more viable approach than just a decade ago. Combined with recent strides in materials technology makes this a very exciting and rewarding time to develop kite energy.
 
-## Our Purpose
+### YC application
+We applied to YCombinator, a Silicon Valley accelerator program, to join the summer 2017 batch. The application gives a good overall insight into what we are doing, so in order not duplicate the description and for those interested in the actual application we have decided to put it online as it is [S2017 batch Application ](http://kitex.tech/blog/yc-2017S/).
+
+## Purpose
 We will be promoting and developing kite technology in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [Quora - if energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
 
 In order to promote this future the company KiteX will be focusing on research and development of kite-systems and we will be disseminating our findings to the largest extent possible, while ensuring that viability of our own business.
@@ -39,9 +39,9 @@ In order to promote this future the company KiteX will be focusing on research a
 ### Core team
 
 | --- |---:|
-| ![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}       | **Andreas Bruun Okholm**    <br /> *Co-founder:* Aircraft Design, Control Strategy. <br /> MSc aerospace engineering. Successful wind/aero startup. |
-| ![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}   | **Gustaf Kugelberg**        <br /> *Co-founder:* Mathematical modelling, Software architecture. <br /> MSc theoretical physics. X-Management Consultant.  App developer. |
-| ![Aldus von der Burg](/images/profile/aldusVonDerBurg.jpg){:class="profilePicture"} | **Aldus von der Burg**      <br /> *Project Engineer, part time:* Project planning, Documentation, Partnerships. <br /> BSc Automotive Enginnering. |
+| ![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}       | **Andreas Bruun Okholm** (email: andreas at kitex.tech)   <br /> *Co-founder:* Aircraft Design, Control Strategy. <br /> MSc aerospace engineering. Successful wind/aero startup. |
+| ![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}   | **Gustaf Kugelberg** (email: kugel at kitex. tech)       <br /> *Co-founder:* Mathematical modelling, Software architecture. <br /> MSc theoretical physics. Ex management consultant. App developer. |
+| ![Aldus von der Burg](/images/profile/aldusVonDerBurg.jpg){:class="profilePicture"} | **Aldus von der Burg** (email: aldus at kitex.tech)     <br /> *Project Engineer, part time:* Project planning, Documentation, Partnerships. <br /> BSc Automotive Enginnering. |
 
 ### Key Advisors
 
@@ -58,7 +58,6 @@ In order to promote this future the company KiteX will be focusing on research a
 | ![Cong Wang](/images/profile/congWang.jpg){:class="profilePicture"}       | **Cong Wang**    <br /> Entrepreneur and Business Angel. |
 | ![Neil Murray](/images/profile/neilMurray.jpg){:class="profilePicture"}   | **Neil Murray**  <br /> Founding Editor of The Nordic Web |
 
-
 ### Want to team up?
 Do you share our vision for a the kite powered future? Get in touch! We are currently especially looking for someone who would like to design the power electronics.
 
@@ -67,7 +66,7 @@ Our path towards commercially viable kite energy is designed with the philosophy
 
 1. Autonomously flying kite (**Achieved**)
 2. Fixed wing flying kite (**Achieved**)
-3. Tethered drone that can take off and land autonomously ((**Work in progress**)
+3. Tethered drone that can take off and land autonomously (**Work in progress**)
 4. Energy generation
 5. Scale it up to commercially viable proportions
 
@@ -81,7 +80,6 @@ While there are currently 100+ organisations involved in airborne wind energy [r
 * Makani. Founded in 2006. Developing a hard wing with mounted generators and engines for control and power generation. Should be starting a trial with a 600 kW version in Hawaii very soon. Investment in 2006 and 2008 of a combined of 15 million USD [reference](http://www.itechpost.com/articles/9658/20130523/google-x-makani-power-make-traditional-wind-energy-obsolete.htm). [website](https://www.google.com/makani/). [wikipedia](https://en.wikipedia.org/wiki/Makani_Power).  
 * Ampyx Power. Founded in 2008. Developing a hard wing, sailplane line, kite with ground based generator. Total investment of at least 4.5 million euro [reference](https://www.ampyxpower.com/partners). [website](https://www.ampyxpower.com).
 * SkySails. Founded in 2001. Developing a soft kite with ground based generator. Has experience from developing a 300 m2 kite for pulling cargo ships. Investment in research in kite related activities to date 50 million euros [reference](http://www.skysails.info/english/power/development/). [website](http://www.skysails.info/).
-
 
 ## <a name="contact-link" class="anchor"></a>Contact
 
