@@ -1,7 +1,7 @@
 ---
 layout: default
 category: blog
-description: A Kite Energy Simulator
+description: Web based interactive visual tether designer for a airborne wind energy system
 ---
 
 # Airborne Wind Energy Tether Designer
