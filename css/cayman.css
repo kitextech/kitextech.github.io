@@ -50,10 +50,10 @@ a {
         margin-left: 0; } }
 
 .page-header {
-  color: #610699;
+  color: #377239;
   text-align: center;
   background: #FFF url("/graphics/tiny_grid.png") repeat right top;
-  border-bottom: thick solid #610699;
+  border-bottom: thick solid #377239;
 }
   @media screen and (min-width: 64em) {
     .page-header {
@@ -128,10 +128,10 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #610699; }
+    color: #377239; }
   .main-content h1,
   .main-content h2 {
-    border-bottom: medium solid #610699;
+    border-bottom: medium solid #377239;
   }
 
   .main-content p {
@@ -276,7 +276,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #610699;
+    background-color: #377239;
     overflow: hidden;
 }
 
@@ -298,7 +298,7 @@ img.profilePicture {
 
 /* Change the link color on hover */
 nav li a:hover {
-    background-color: #555;
+    background-color: #272827;
     color: white;
 }
 

@@ -358,7 +358,7 @@ var powerTower = {
 
 // define document width and height
 var width = 832, height = 400
-var purple = '#610699'
+var purple = '#377239'
 
 // create SVG document and set its size
 var draw = SVG('drawing').size(width, height)
@@ -383,10 +383,10 @@ var kiteShapeScaled = kiteShape.map( function(p) {
 })
 
 var kite1 = draw.kite(kiteShapeScaled, {})
-  .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
+  .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#377239' })
 
 var kite2 = draw.kite(kiteShapeScaled, {baseX: 360, phaseOffset: Math.PI})
-  .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
+  .fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#377239' })
 
 
 // *** Tethers ****
@@ -428,7 +428,7 @@ var lineT2 = lineMT.clone()
 
 // BASE
 draw.path('M -20 20 L 0 -14.641 L 20 20 z').center(base.x, base.y)
-.fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#610699' })
+.fill(purple).stroke({ width: 4, linecap: 'round', linejoin: 'round', color: '#377239' })
 
 // Line
 
@@ -491,7 +491,7 @@ function sliderYcurrent() {
 
 var sliderBase = draw.line(sliderX,sliderYMax,sliderX,sliderYMin).stroke({ width: 3, color: '#333', linecap: 'round', linejoin: 'round' })
 var sliderHandleRadius = 15
-var sliderHandle = draw.circle(sliderHandleRadius*2).center(sliderX,sliderXCurrent).fill('#610699')
+var sliderHandle = draw.circle(sliderHandleRadius*2).center(sliderX,sliderXCurrent).fill('#377239')
 
 sliderHandle.draggable({
   minX: sliderX-sliderHandleRadius
@@ -503,7 +503,7 @@ sliderHandle.draggable({
 var windspeeds = [2, 8, 15, 25, 12].map( function(e) { return e/25 })
 var windspeedIndex = 0
 
-// var windButton = draw.circle(40).center(sliderX, sliderYMin + 50).fill('#610699')
+// var windButton = draw.circle(40).center(sliderX, sliderYMin + 50).fill('#377239')
 
 
 var label3 = label1.clone().text('Change wind speed').move(width-10, sliderYMin + 20)
