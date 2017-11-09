@@ -7,14 +7,14 @@ description: A Kite Energy Simulator
 # Airborne Wind Energy Tether Designer
 The Tether is one of the most critical components of the airborne wind energy system. The requirements are
 
-1. Large tensile loads
+1. Large tensile load
 2. Flexible enough to be wound up
 3. Transfer considerable power
 4. Aerodynamic
 5. Low mass
 6. Low maintenance
 
-This combination is unique to airbone wind energy and therefore the tethers the tethers has to be developed specifically for this task. Base on previous work, then we have made a interactive designer using analytical expressions and an iterative approach solves for an optimal design. 
+This combination is unique to airbone wind energy and therefore the tethers the tethers has to be developed specifically for this task. Base on previous work, then we have made a interactive designer using analytical expressions and an iterative approach solves for an optimal design.
 
 ## Embeded Designer
 <iframe src="http://kitex.tech/tetherDesigner/" height="540" width="832" frameborder="0">
