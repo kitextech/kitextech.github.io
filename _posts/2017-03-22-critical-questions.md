@@ -79,12 +79,6 @@ This is one of the challenging aspects of the project as the serious weight rest
 ## Will aviation authorities allow kite wind mills?
 Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) have all been allowed to perform tests with commercial scale tether lengths, so it seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
 
-## How long time will it take to develop?
-With an Elon Musk timeline the kite would be producing energy mega watts by 2020; realistically add a year or two.
-
-## What will be the R&D cost
-In order to get to a commercially viable system some industry estimates are in the order of 100 M USD, which is in line with our own calculations. For comparison, the development costs for the latest iteration of the largest offshore wind turbines (by Siemens and Vestas) are on the order of 500 M USD. We expect to be able to cover a large part of this through government grants.
-
 ## References
 
 1. Payne, Peter R., and Charles McCutchen. "Self-erecting windmill." U.S. Patent No. 3,987,987. 26 Oct. 1976.
