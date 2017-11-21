@@ -109,7 +109,7 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 <div id="logoBox">
     <div class="logoTB"><span class="helper"></span><img src="/graphics/DTUlogo.svg" /></div>
     <div class="logoTB"><span class="helper"></span><img src="/graphics/swe-360x154-agile-logo.png" /></div>
-    <div class="logoTB"><span class="helper"></span><img src="/graphics/SDUlogo.svg" /></div>
+    <div class="logoTB"><span class="helper"></span><img src="/graphics/SDULogo.svg" /></div>
 </div>
 
 <!-- <div style="height: 10px;"></div> -->
