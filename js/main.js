@@ -361,7 +361,7 @@ var width = 832, height = 400
 var kiteXGreen = '#377239'
 
 // create SVG document and set its size
-var draw = SVG('drawing').size(width, height)
+var draw = SVG('drawing') //.size(width, height)
 draw.viewbox(0,0,width,height)
 draw.attr({preserveAspectRatio:"xMinYMin meet"})
 

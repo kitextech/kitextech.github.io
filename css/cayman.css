@@ -348,8 +348,9 @@ nav li a:hover {
 }
 
 #front3 {
-  min-height: 400px;
+  /* min-height: 300px; */
   background: #F0F0F0;
+  padding: 3rem 3rem 2rem 3rem;
 }
 
 

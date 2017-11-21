@@ -35,7 +35,7 @@ We are building a new type of flying wind turbine that can make wind power acces
 
 <section class="page-header" id="front3">
 
-<div id="drawing"></div>
+<div id="drawing" style="height: 100%; max-width: 832px; margin: auto;"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
 <script src="/js/main.js"></script>
 
