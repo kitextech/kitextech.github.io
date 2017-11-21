@@ -366,6 +366,32 @@ nav li a:hover {
 #front5 {
   min-height: 300px;
   background: #F0F0F0;
+  padding: 3rem 3rem 2rem 3rem;  
+}
+
+#logoBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 832px;
+}
+
+#logoBox .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.logoTB {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.logoTB img {
+  vertical-align: middle;
+  width: 100%;
 }
 
 

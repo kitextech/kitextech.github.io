@@ -106,8 +106,11 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 </section>
 
 <section class="page-header" id="front5">
-
-Technical University of Denmark, E.On, Innovation On Wings, University of Southern Denmark, Founders House.
+<div id="logoBox">
+    <div class="logoTB"><span class="helper"></span><img src="/graphics/DTUlogo.svg" /></div>
+    <div class="logoTB"><span class="helper"></span><img src="/graphics/swe-360x154-agile-logo.png" /></div>
+    <div class="logoTB"><span class="helper"></span><img src="/graphics/SDUlogo.svg" /></div>
+</div>
 
 <!-- <div style="height: 10px;"></div> -->
 <!-- <img src="/graphics/3DIsometricFlipWhite.svg" alt="KiteX" style="width:320px"> -->
