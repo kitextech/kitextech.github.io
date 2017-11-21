@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Critical Questions
+# FAQ
 
 ## How does it work?
 
@@ -55,7 +55,7 @@ Traditional wind turbines also shut down in case of stormy weather (25 m/s typic
 ## What about lightning strikes?
 Kites will be susceptible to lightning and would need to be protected in a similar fashion to general aviation airplanes. By making the body conducting and isolating the critical electronics sufficiently it is possible to lead the current around the critical components.
 
-## Surely icing conditions must be a problem?
+## Icing conditions must be a problem?
 Over icing of the kite would be quite problematic as it could lead to a loss of control. Icing is however also a problem for traditional wind turbines as it leads to less efficient airfoils and results in reduced power output. The most well tested solution is to install an electric heating system in the blades to keep the surface temperature above zero. Given the amount of heat needed to be dissipated from the electrical converters in an airborne generator (kite) it's not unlikely there could be some kind of synergy. An advantage our system has compared to traditional wind mills is that it is smaller and can be serviced on ground level.
 
 ## With the cost of Solar energy is falling exponentially, is wind energy passé?
@@ -78,6 +78,12 @@ This is one of the challenging aspects of the project as the serious weight rest
 
 ## Will aviation authorities allow kite wind mills?
 Ampyx power (Netherlands), Kitemill (Norway) and Makani (USA) have all been allowed to perform tests with commercial scale tether lengths, so it seems there is a willingness from the aviation agencies to be cooperative in finding solutions.   
+
+
+## What's the competitive landscape
+There is quite a few competitors trying to realise Kite energy. Contact us and we can explain more concretely how we fit in the landscape and our competitive edge.  
+
+
 
 ## References
 

@@ -468,7 +468,7 @@ var powerGeneration = 0
 
 // create text for the score, set font properties
 var label1 = draw.text(powerGeneration+' kW').font({
-  size: 32,
+  size: 20,
   // family: 'Menlo, sans-serif',
   anchor: 'end',
   fill: purple

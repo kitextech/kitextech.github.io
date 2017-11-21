@@ -7,7 +7,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+}
 
 a {
   color: #1e6bb8;
@@ -293,7 +294,8 @@ nav li a {
 }
 
 img.profilePicture {
-  max-width: 100px
+  max-width: 100px;
+  border-radius: 50px;
 }
 
 /* Change the link color on hover */
@@ -312,4 +314,54 @@ nav li a:hover {
     img.width50percent {
       width: 90%;
     }
+}
+
+/* front page */
+
+#front1 {
+  min-height: 700px;
+  background: #222 url(/images/RomanBoedCCBY2SavanaKilemanjaroFullSmaller.jpg);
+  background-position: 50% 50%;
+  background-size:  cover;
+  background-repeat: repeat-x;
+  color: #FFF;
+}
+
+#front2 {
+  min-height: 500px;
+  background: #F0F0F0 url(/images/GroundStation_topView.jpg);
+  background-position: 50% 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+#front3 {
+  min-height: 400px;
+  background: #F0F0F0;
+}
+
+
+#front4 {
+  min-height: 300px;
+  background: #377239 url(/graphics/3DIsometricFlipWhite.svg);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+#front5 {
+  min-height: 300px;
+  background: #F0F0F0;
+}
+
+
+.front table td {
+  border: 0px;
+}
+
+.front h2, h3 {
+  text-align: center;
+  border-bottom: 0px;
 }
