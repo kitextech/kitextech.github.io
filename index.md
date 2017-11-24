@@ -66,7 +66,7 @@ We are building a new type of flying wind turbine that can make wind power acces
 
 | --- |---:|
 | ![Cong Wang](/images/profile/congWang.jpg){:class="profilePicture"}       | **Cong Wang**    <br /> Entrepreneur and Business Angel. |
-| ![Neil Murray](/images/profile/neilMurray.jpg){:class="profilePicture"}   | **Neil Murray**  <br /> Founding Editor of The Nordic Web, Plan A Ventures|
+| ![Neil Murray](/images/profile/neilMurray.jpg){:class="profilePicture"}   | **Neil Murray**  <br /> Founding Editor of The Nordic Web, The Nordic Web Ventures|
 
 ### Want to team up?
 Do you share our vision for a the kite powered future, get in touch!
@@ -88,7 +88,7 @@ Do you share our vision for a the kite powered future, get in touch!
 
 
 ## <a name="progress-link" class="anchor"></a>Progress
-Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous flight. 
+Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous flight.
 
 (Section in progress)
 
