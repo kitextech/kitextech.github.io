@@ -49,9 +49,21 @@ We are building a new type of flying wind turbine that can make wind power acces
 
 ### Founders
 
-| --- |---:|
-| ![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}       | **Andreas Bruun Okholm**    <br /> Co-Founder, Co-CEO. <br /> MSc Aerospace. <br /> Two successful hardware products (Vaavud) through kickstarter. <br /> Featured in Apple commercials. Red dot design awards.|
-| ![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}   | **Gustaf Kugelberg**        <br />  Co-Founder, Co-CEO. <br /> Mathematical modelling, Software architecture. <br /> MSc theoretical physics. Ex management consultant. App developer. |
+![Andreas Okholm](/images/profile/andreasOkholm.jpg){:class="profilePicture"}
+**Andreas Bruun Okholm**
+
+I have a mixed design, mechanical and aerospace degree from the Technical University of Denmark and University of Adelaide. Doing my master degree I created a smartphone based wind measuring tool, which provide value adding functionality to traditional wind meters and most importantly allows kite-surfers (and other wind users) to share ultra local wind information. I worked on this project (called Vaavud) for 3 years doing both hardware and software development. We managed to create the most sold smartphone wind meter in the world -- and the first one to measure wind direction.
+
+I have for a long time been fascinated by the power of kites, and been using them for surfing for the past 10+ years. Being able to work with kites is really fascinating and I find that it allows me to make use of most of my toolset: mechanical engineering, aerodynamics, programming, startups and most importantly it gives a feeling of making a positive impact.
+
+<div style="height: 50px;"></div>
+![Gustaf Kugelberg](/images/profile/gustafKugelberg.jpg){:class="profilePicture"}  
+**Gustaf Kugelberg**
+
+An avid kitesurfer since 8 years, my educational background is in pure and applied mathematics, with a touch of liberal arts -- I took a M. Sc. Eng. in technical physics, and studied mathematics, Archaeology, Greek, Latin, Russian and Japanese on the side.
+
+I have worked as a management consultant at Oliver Wyman, helped launch a small but very successful compensation consultancy, advised startups in industries ranging from construction innovations to mineral prospecting and for the last 5 years I have also been developing software, most notably for Vaavud, mentioned above, and Realm.
+
 
 ### Advisors
 
@@ -75,10 +87,6 @@ Do you share our vision for a the kite powered future, get in touch!
 </section>
 
 <section class="page-header" id="front4">
-
-<!-- <div style="height: 10px;"></div> -->
-<!-- <img src="/graphics/3DIsometricFlipWhite.svg" alt="KiteX" style="width:320px"> -->
-<!-- <div style="height: 50px;"></div> -->
 
 </section>
 
@@ -111,10 +119,6 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
     <div class="logoTB"><span class="helper"></span><img src="/graphics/swe-360x154-agile-logo.png" /></div>
     <div class="logoTB"><span class="helper"></span><img src="/graphics/SDULogo.svg" /></div>
 </div>
-
-<!-- <div style="height: 10px;"></div> -->
-<!-- <img src="/graphics/3DIsometricFlipWhite.svg" alt="KiteX" style="width:320px"> -->
-<!-- <div style="height: 50px;"></div> -->
 
 </section>
 
