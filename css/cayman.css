@@ -342,6 +342,13 @@ nav li a:hover {
   color: #FFF;
 }
 
+@media screen and (min-width: 100em) {
+  #front1 {
+    max-width: 100em;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 42em) {
   #front1 {
     min-height: 500px;
