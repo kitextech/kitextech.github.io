@@ -4,7 +4,7 @@ category: blog
 description: Literature list January 2018, KiteX Airborne wind energy.
 ---
 
-# Airborne wind energy literature - January 2018
+# Airborne wind energy literature - january 2018
 
 This is the current KiteX literature list. We hope that it might help new entrants to the Airbone wind energy field. It should be possible to find the paper/resource based on the title mentioned. First a few especially interesting papers.
 
