@@ -19,7 +19,7 @@ We are developing drone wind energy in order to create a future where renewable 
 <div style="height: 50px;"></div>
 </section>
 
-<section class="page-header" id="front3a">
+<section class="page-middle-section" id="front3a">
 <div class="main-content" markdown="1">
 ![KiteX Field Testing ](/images/KiteX_06.jpg)
 </div>
@@ -39,7 +39,7 @@ We are building a new type of flying wind turbine that can make wind power acces
 <div style="height: 50px;"></div>
 </section>
 
-<section class="page-header" id="front3">
+<section class="page-middle-section" id="front3">
 
 <div id="drawing" style="height: 100%; max-width: 832px; margin: auto;"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.1/svg.js"></script>
@@ -93,7 +93,7 @@ I have worked as a management consultant at Oliver Wyman, helped launch a small 
 <div style="height: 50px;"></div>
 </section>
 
-<section class="page-header" id="front2">
+<section class="page-middle-section" id="front2">
 </section>
 
 <section class="main-content front" markdown="1">
@@ -120,7 +120,7 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 <div style="height: 50px;"></div>
 </section>
 
-<section class="page-header" id="front5">
+<section class="page-middle-section" id="front5">
 <div id="logoBox">
     <div class="logoTB"><span class="helper"></span><img src="/graphics/DTUlogo.svg" /></div>
     <div class="logoTB"><span class="helper"></span><img src="/graphics/swe-360x154-agile-logo.png" /></div>
