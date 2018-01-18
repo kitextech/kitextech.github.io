@@ -33,14 +33,6 @@ Your browser does not support the video tag. A video of the transition should be
 </video>
 
 
-
-### SuperQ Two kites
-**April 8th**
-We now have two kites that are capable of hovering and ready for more flight testing! Time to work on the flight control and transition manoeuvre from hover to fixed wing wind driven flight.
-
-![Two complete SuperQ kites ready](/images/SuperQTwoKites.jpg)
-
-
 ### SuperQ Position Controlled Outdoor Hover
 
 **March 20th**
@@ -58,23 +50,6 @@ Our first autonomous flight in positional hover control mode. Position commands 
 **March 8th** First successful tethered flight of our kite that will be able to take of and land like a drone. We are working on optimizing the flight control software before we continue with outdoor testing. **[Video clip](https://youtu.be/QKZIdXsHDRg)**
 
 ![Gif of SuperQ flying indoor](/images/SuperQTetheredIndoor.gif)
-
-### Experimental Drone Tech
-
-**January 24th** Multiple drone prototypes (dual, quad-rotored and a flying wing), has been build over the past two months. Parts and construction material has now been ordered to start the build of a 1.4 meter combined kite and flying drone.
-
-
-This is the first time we flew the Pixhawk (PX4) flight controller on a DJI 450 Flamewheel frame. This test was carried out under a study trip to Shenzhen, China to learn more about drone flight controllers.
-
-![Gif of first Pixhawk Flight](/images/AK004DroneIndoor.gif)
-
-We build a fixed wing autonomous drone in order to test the accuracy of the positioning system. While the positioning was satisfactory in early test. We did eventually encounter an error, which let to the crash while in autopilot mode.  
-
-![Crashed fixed wing autonomous flight](/images/AK005FixedWingCrash.jpg)
-
-We developed a simple prototype to test the stability of a dual rotor kite system while in hovering mode. While it was possible to stay in a controlled tethered hover we experienced large low frequency pitch oscillations. This could possibly be countered by active aerodynamic control surfaces, but we opted to use 4 rotors for the next generation prototype.
-
-![Dual Rotor flight](/images/AK006DualRotor.jpg)
 
 
 ### Fixed Wing Kite
