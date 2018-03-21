@@ -63,9 +63,11 @@ Our path towards commercially viable kite energy is designed with the philosophy
 | Sep 2016 | **Soft kite autonomous flight** |
 | Jan 2017 | **Vertical take off and landing kite** |
 | Jun 2017 | **Pre-seed funding round** |
-| Sep 2017 | **E.On Accelerator** |
 | Aug 2017 | **Autonomous Flights** |
+| Sep 2017 | **E.On Accelerator** |
 | Nov 2017 | **LOIs for offgrid and offshore wind turbine** |
+| Jan 2018 | **Dual kites flight** |
+
 
 
 Also, we try to keep a updated [List of prototype developments](/prototypes).
