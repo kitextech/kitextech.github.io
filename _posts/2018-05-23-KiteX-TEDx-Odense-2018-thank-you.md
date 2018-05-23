@@ -1,7 +1,7 @@
 ---
 layout: default
 category: blog
-description: Andreas Okholm tells his story about he came to work with kite and the amazing possibilities.
+description: Andreas Okholm told his story about kites at TEDx Odense 2018. Thanks for all the parties that have been part of getting this far.
 ---
 
 # KiteX at TEDx Odense 2018 - Thank you! Exchanging I for We?
