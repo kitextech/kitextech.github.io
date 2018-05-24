@@ -30,3 +30,7 @@ At the time of presenting on stage the KiteX literally consisted of one full tim
 * Martin Damgaard
 * Nicolai Porskrog Christiansen
 * Lorenzo Albano
+
+### TEDxOdense
+* Adam Montandon
+* TEDx volunteers
