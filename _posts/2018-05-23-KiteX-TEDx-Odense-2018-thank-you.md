@@ -20,7 +20,7 @@ At the time of presenting on stage the KiteX literally consisted of one full tim
 ### Investors & advisors
 * Neil Murray - Investor, The Nordic Web Ventures
 * Cong Wang - Investor, Cong Wang Holding
-* E.On Agile Sweeden - Accelerator program
+* E.On Agile Sweden - Accelerator program
 * Mac Gaunaa - Advisor
 * Rold Østergaard - Advisor
 * Philip Neff - Advisor
@@ -34,3 +34,5 @@ At the time of presenting on stage the KiteX literally consisted of one full tim
 ### TEDxOdense
 * Adam Montandon
 * TEDx volunteers
+
+Want to build kites and be part of the team? Check out our [open positions.](https://thehub.dk/jobs/company/kitex)
