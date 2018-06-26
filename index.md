@@ -97,8 +97,9 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 
 
 ```
-KiteX c/o Founders House
-Njalsgade 21G, 7th floor,
+KiteX IVS
+c/o Andreas Okholm
+Cumberlandsgade 4, 3. tv.
 2300 Copenhagen S
 
 Company Name: KiteX IVS
