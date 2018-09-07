@@ -97,10 +97,9 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 
 
 ```
-KiteX IVS
-c/o Andreas Okholm
-Cumberlandsgade 4, 3. tv.
-2300 Copenhagen S
+KiteX IVS c/o DTU Skylab
+Diplomvej 373A
+2800 Kongens Lyngby
 
 Company Name: KiteX IVS
 CVR: DK38029126
