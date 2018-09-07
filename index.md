@@ -100,6 +100,7 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 KiteX IVS c/o DTU Skylab
 Diplomvej 373A
 2800 Kongens Lyngby
+Denmark
 
 Company Name: KiteX IVS
 CVR: DK38029126
