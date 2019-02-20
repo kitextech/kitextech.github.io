@@ -5,6 +5,17 @@ layout: default
 # Prototype Developments
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
+
+### 24 hours continuous hover test at DTU Risø
+**November 24th 2018**
+We wanted to test the durability of our newly developed electronics, which is able to both send power to the kite and from the kite to the ground through the tether. The test was carried out over 24 hours at DTU Risø in Roskilde.
+**[Video: 24 hours hover test](https://youtu.be/-1QjWeb71Zo)**
+<video autoplay loop>
+  <source src="/video/24hoursHover.mp4" type="video/mp4">
+Your browser does not support the video tag. A video of the transition should be here.
+</video>
+
+
 ### Two kites sharing the same tether
 **January 24th 2018**
 Having two kites sharing most of the same tether it's possible to quadruple the power output. This is the worlds dual kite flight although the kites needs to fly in opposite phase in order to achieve the efficiency gain.
