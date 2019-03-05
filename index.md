@@ -6,7 +6,7 @@ title: {{ site.name }}
 <section class="page-header" id="front1">
     <div style="height: 100px;"></div>
     <h1 class="project-name"><a href="{{ site.github.url }}"><img src="/graphics/KiteXWhite.svg" alt="KiteX" style="width:270px"></a></h1>
-    <h2 class="project-tagline">Mobile wind energy</h2>
+    <h2 class="project-tagline">Next generation wind energy</h2>
     <!-- <a href="#" class="btn">View on GitHub</a> -->
 </section>
 
