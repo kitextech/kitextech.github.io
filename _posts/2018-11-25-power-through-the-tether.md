@@ -4,7 +4,7 @@ category: blog
 description: The development of a electric power train capable of 24 hours of continuous operation.
 ---
 
-# Sending power through the tether.
+# Sending power through the tether
 
 Transmission of power through the tether is one of the big challenges of an airborne wind energy system with onboard generation. In order to reduce the mass and drag of the tether it's necessary to transmit the power at a high voltage such that the conductors can be sufficiently small. At the same time it's desirable to have as few conversion steps as possible and the converters should be light, efficient and robust. We started working on the power electronics setup soon after completing our goal of tethered dual kite flight.
 
