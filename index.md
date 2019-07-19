@@ -70,6 +70,7 @@ Our path towards commercially viable kite energy is designed with the philosophy
 | Mar 2018 | **InnoBooster Grant** |
 | Sep 2018 | **Tethered powered hover** |
 | Nov 2018 | **24 hours continuous hover test** |
+| Jun 2019 | **KX4 takeoff** | 
 
 
 Also, we try to keep a updated [List of prototype developments](/prototypes).

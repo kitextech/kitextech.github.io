@@ -6,6 +6,15 @@ layout: default
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
 
+### KX4 Takeoff
+**June 12th 2019**
+First flight with our next generation prototype that will be the first one with the ability to generate power and transmit it to the ground through our custom cable.
+<video autoplay loop>
+  <source src="/video/KX4_takeoff.mp4" type="video/mp4">
+Your browser does not support the video tag. A video of the transition should be here.
+</video>
+
+
 ### 24 hours continuous hover test at DTU Risø
 **November 24th 2018**
 We wanted to test the durability of our newly developed electronics, which is able to both send power to the kite and from the kite to the ground through the tether. The test was carried out over 24 hours at DTU Risø in Roskilde.
