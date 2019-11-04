@@ -70,7 +70,7 @@ Our path towards commercially viable kite energy is designed with the philosophy
 | Mar 2018 | **InnoBooster Grant** |
 | Sep 2018 | **Tethered powered hover** |
 | Nov 2018 | **24 hours continuous hover test** |
-| Jun 2019 | **KX4 takeoff** | 
+| Jun 2019 | **KX4 takeoff** |
 
 
 Also, we try to keep a updated [List of prototype developments](/prototypes).
@@ -100,9 +100,15 @@ Also, we try to keep a updated [List of prototype developments](/prototypes).
 
 
 ```
-KiteX IVS c/o DTU Skylab
-Diplomvej 373A
-2800 Kongens Lyngby
+Primary office & test site:
+KiteX c/o DTU Link
+Frederiksborgvej 399
+4000 Roskilde
+
+Development office:
+KiteX
+Maskinvej 5
+2860 Søborg
 Denmark
 
 Company Name: KiteX IVS
