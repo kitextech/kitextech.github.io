@@ -5,6 +5,14 @@ layout: default
 # Prototype Developments
 We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
 
+### KX4 Crosswind
+**December 13th 2019**
+After several test flights doing fall 2019, we finally managed to solve all challenges with the flight control software,  power electronics, and aerodynamics resulting in the first successful loops. Now we will work on optimizing the path following.
+<video autoplay loop>
+  <source src="/video/kx4Loop.mp4" type="video/mp4">
+Your browser does not support the video tag. A video of the transition should be here.
+</video>
+
 
 ### KX4 Takeoff
 **June 12th 2019**
