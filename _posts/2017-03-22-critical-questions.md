@@ -4,6 +4,18 @@ layout: default
 
 # FAQ
 
+## Why Airborne Wind Energy?
+At KiteX, we are working on developing a new type of wind turbine that can capture wind energy much more efficiently. We replace the massive tower, large generator, and long blades with a smaller fast flying wing tethered to the ground that captures wind energy. Without a tower, the wing can reach higher altitudes while using much less material.
+
+Less material (approximately 90%) means that the systems are much more mobile, reducing transportation and installation costs compared to a conventional system. Kites are also much easier to pack down in case of storms. Airborne Wind Energy Systems, when materialized, will directly help reach SDG7 (Affordable Energy) and SDG13 (Climate Action). 
+
+Reaching higher altitudes means access to more steady winds and better utilization of the infrastructure that the wind turbine powers since the wind turbine is more "on" compared to conventional systems. 
+
+Kites are one of the few technologies that have the potential to significantly reduce the cost of renewable energy on a global scale as identified by the EU Commission, utilities, and prominent technology companies (ABB, Google, EOn, Shell, etc.). 
+
+We are not the only ones trying to realize these wings. There exists a network of startups and academics seeking to solve this exact problem. We are both competitors and on the same team at the same time. We are all working towards the same goal, and we have, in the past two years, collaborated directly with competitors KiteKraft, KitePower, Windlift, and Kiteborne.
+
+
 ## How does it work?
 
 A rigid wing made of composite material is connected via a conducting tether to the ground station. The wing is flying through the air about 10 times faster than the wind speed generating a large lift force which keeps the wing afloat and pushes the wing forward.
