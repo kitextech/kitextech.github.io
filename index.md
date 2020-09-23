@@ -4,27 +4,47 @@ title: {{ site.name }}
 ---
 
 <section class="page-header" id="front1">
-    <div style="height: 100px;"></div>
+    <div style="height: 200px;"></div>
     <h1 class="project-name"><a href="{{ site.github.url }}"><img src="/graphics/KiteXWhite.svg" alt="KiteX" style="width:270px"></a></h1>
-    <h2 class="project-tagline">Next generation wind energy</h2>
+    <h2 class="project-tagline">Offgrid wind power made easy</h2>
     <!-- <a href="#" class="btn">View on GitHub</a> -->
 </section>
 
-<!-- PURPOSE -->
+<!-- How much power-->
 
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
-## Purpose
-We are developing drone wind energy in order to create a future where renewable energy is the most cost effective option. Cheaper energy will help societies reduce the average amount of "hard" work required to sustain a given living standard, freeing up time for more valuable pursuits. We find the reflections in these answers quite interesting: [If energy was free](https://www.quora.com/If-energy-was-free-and-renewable-how-would-the-economy-be-fundamentally-different-from-what-it-is-now)
+## How much power do you need?
+Below you can see how much power a Wind Catcher will exately where you want to use it! These are average for an entire year - day and night.
+
+![Energy Scale](/graphics/EnergyScale.png)
+
+
 
 <div style="height: 50px;"></div>
 </section>
 
-<!-- TOP VIEW SPACER -->
+
+<!-- WIND MAP SPACER -->
 
 <section class="page-middle-section" id="front2">
+<iframe src="http://kitexmap.com.s3-website.eu-north-1.amazonaws.com" height="100%" width="100%"></iframe>
 </section>
+
+<!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
+
+<section class="main-content front" markdown="1">
+<div style="height: 50px;"></div>
+
+## Wind Catcher - Power in 12 minutes
+Ships in a parcel with regular postal services and after initial assembly can be setup in 12 minutes. The turbine comes with a DC output plug that can be connected to most battery generators. Just check that voltage limits and plugs match. Getting wind power has never been this easy!
+
+<iframe width="832" height="468" src="https://www.youtube.com/embed/zR_LNtCwLfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div style="height: 50px;"></div>
+</section>
+
 
 
 <!-- SOLUTION  -->
@@ -32,8 +52,8 @@ We are developing drone wind energy in order to create a future where renewable 
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
-## Solution
-We are building a new type of flying wind turbine that can make wind power accessible for many more locations, as well as significantly cheaper. It utilises drone technology to autonomously control a flying wing tethered to the ground, and this wing acts as the blade of a traditional wind turbine. Because it needs no tower, only a small foundation and uses its "blades" (the wings) much more efficiently, it only needs a fraction of the material of a conventional system, for the same power output. This is where costs are saved, and it is the reason it can be installed almost anywhere, without large cranes and other expensive infrastructure.
+## Everything you need in one Box
+![Wind Catcher Kit](/images/WindCatcherKitDisplaySmall.jpg)
 
 <div style="height: 50px;"></div>
 </section>
@@ -55,26 +75,11 @@ We are building a new type of flying wind turbine that can make wind power acces
 <div style="height: 50px;"></div>
 
 
-## <a name="progress-link" class="anchor"></a>Progress
-Our path towards commercially viable kite energy is designed with the philosophy of dealing with the most difficult problems first - a complete autonomous flight.
+## <a name="progress-link" class="anchor"></a>Wind Map
+How much power can you expect at your sites?
 
-| --------:|:---------- |
-| Jun 2016 | **Founded** |
-| Sep 2016 | **Soft kite autonomous flight** |
-| Jan 2017 | **Vertical take off and landing kite** |
-| Jun 2017 | **Pre-seed funding round** |
-| Aug 2017 | **Autonomous Flights** |
-| Sep 2017 | **E.On Accelerator** |
-| Nov 2017 | **LOIs for offgrid and offshore wind turbine** |
-| Jan 2018 | **Dual kites flight** |
-| Mar 2018 | **InnoBooster Grant** |
-| Sep 2018 | **Tethered powered hover** |
-| Nov 2018 | **24 hours continuous hover test** |
-| Jun 2019 | **KX4 takeoff** |
-| Dec 2019 | **KX4 crosswind flight** |
+<iframe src="http://kitexmap.com.s3-website.eu-north-1.amazonaws.com" height="500px" width="832px"></iframe>
 
-
-Also, we try to keep a updated [List of prototype developments](/prototypes).
 
 <div style="height: 50px;"></div>
 </section>

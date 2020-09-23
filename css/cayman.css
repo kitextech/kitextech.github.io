@@ -332,10 +332,15 @@ nav li a:hover {
     }
 }
 
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
 /* front page */
 
 #front1 {
-  background: #222 url(/images/RomanBoedCCBY2SavanaKilemanjaroFullSmaller.jpg);
+  background: #222 url(/images/WindCatcherSunsetBlur.jpg);
   background-position: 50% 50%;
   background-size:  cover;
   background-repeat: repeat-x;
@@ -363,7 +368,7 @@ nav li a:hover {
 
 #front2 {
   min-height: 500px;
-  background: #F0F0F0 url(/images/GroundStation_topView.jpg);
+  background: #F0F0F0 url(/images/windCatcherWhite.png);
   background-position: 50% 70%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -382,8 +387,6 @@ nav li a:hover {
   padding: 3rem 0rem 2rem 0rem;
 }
 
-
-
 #front4 {
   min-height: 300px;
   background: #377239 url(/graphics/3DIsometricFlipWhite.svg);
@@ -398,6 +401,50 @@ nav li a:hover {
   background: #F0F0F0;
   padding: 3rem 3rem 2rem 3rem;
 }
+
+#airborne1 {
+  background: #222 url(/images/RomanBoedCCBY2SavanaKilemanjaroFullSmaller.jpg);
+  background-position: 50% 50%;
+  background-size:  cover;
+  background-repeat: repeat-x;
+  color: #FFF;
+}
+
+@media screen and (min-width: 100em) {
+  #airborne1 {
+    max-width: 100em;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  #airborne1 {
+    min-height: 500px;
+  }
+}
+
+@media screen and (min-width: 42em) {
+  #airborne1 {
+    min-height: 700px;
+  }
+}
+
+#airborne2 {
+  min-height: 500px;
+  background: #F0F0F0 url(/images/GroundStation_topView.jpg);
+  background-position: 50% 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+#airborne3 {
+  /* min-height: 300px; */
+  background: #F0F0F0;
+  padding: 3rem 3rem 2rem 3rem;
+}
+
+
 
 #founderBox {
   display: flex;
