@@ -366,9 +366,11 @@ iframe {
   }
 }
 
+/* url(/images/windCatcherWhite.png); */
+
 #front2 {
   min-height: 500px;
-  background: #F0F0F0 url(/images/windCatcherWhite.png);
+  background: #F0F0F0 
   background-position: 50% 70%;
   background-size: contain;
   background-repeat: no-repeat;
