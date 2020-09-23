@@ -26,7 +26,7 @@ Below you can see how much power a Wind Catcher will produce exactly where you w
 <!-- WIND MAP SPACER-->
 
 <section class="" id="front2"> 
-<iframe src="http://kitexmap.com.s3-website.eu-north-1.amazonaws.com" height="560px" width="100%"></iframe>
+<iframe src="https://kitexmap.com" height="560px" width="100%"></iframe>
 </section>
 
 <!-- Wind Power in 12 minutes &origin=https://kitex.tech-->

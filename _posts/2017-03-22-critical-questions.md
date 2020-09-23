@@ -71,7 +71,7 @@ Kites will be susceptible to lightning and would need to be protected in a simil
 Over icing of the kite would be quite problematic as it could lead to a loss of control. Icing is however also a problem for traditional wind turbines as it leads to less efficient airfoils and results in reduced power output. The most well tested solution is to install an electric heating system in the blades to keep the surface temperature above zero. Given the amount of heat needed to be dissipated from the electrical converters in an airborne generator (kite) it's not unlikely there could be some kind of synergy. An advantage our system has compared to traditional wind mills is that it is smaller and can be serviced on ground level.
 
 ## With the cost of Solar energy is falling exponentially, is wind energy passé?
-Whether solar or wind is the better option mostly depends on the amount of wind and sun available at a given site. If solar cells continue to drop in price then this will mean that the balance point will move, but there is no reason to believe that either technology will become obsolete. 
+Whether solar or wind is the better option mostly depends on the amount of wind and sun available at a given site. If solar cells continue to drop in price then this will mean that the balance point will move, but there is no reason to believe that either technology will become obsolete.
 
 ## Will the system be robust enough to be economical?
 This is perhaps the most critical questions of all. Even though modern wind turbines are also very complex machines a kite wind turbine is on the face of it significantly more complex, especially a dual kite system.
