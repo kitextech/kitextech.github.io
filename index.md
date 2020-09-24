@@ -29,18 +29,67 @@ Below you can see how much power a Wind Catcher will produce exactly where you w
 <iframe src="https://kitexmap.com" height="560px" width="100%"></iframe>
 </section>
 
+
+<!-- How to use &origin=https://kitex.tech-->
+
+<section class="main-content front" markdown="1">
+<div style="height: 50px;"></div>
+
+## Power your gear
+Connect the Wind Catcher wind turbine to a Solar Power input plug on your portable generator and start charging the battery bank. The portable generator can power or charge your gear! 
+
+![Energy Scale](/graphics/HowToUse.png)
+
+
+<div style="height: 50px;"></div>
+</section>
+
+
 <!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
 
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
-## Power in 12 minutes
+## Setup in 12 minutes
 The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 12 minutes.
 
 <iframe width="832" height="468" src="https://www.youtube.com/embed/zR_LNtCwLfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div style="height: 50px;"></div>
 </section>
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<section class="main-content front" markdown="1">
+<div style="height: 50px;"></div>
+
+<div id="mc_embed_signup">
+<form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Get nofitied Wind Catcher Launch</h2>
+    <p>First backer on indigogo will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_caeb44229d6906a0c5f06f2db_d31a2582e4" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+
+
+<div style="height: 50px;"></div>
+</section>
+<!--End mc_embed_signup-->
 
 
 <!-- CONTACT  -->
