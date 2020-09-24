@@ -69,7 +69,7 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Get nofitied Wind Catcher Launch</h2>
-    <p>First backer on indigogo will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
+    <p>First backer on Kickstarter will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address
 </label>
