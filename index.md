@@ -86,7 +86,7 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div id="mc_embed_signup">
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Get a Wind Catcher for free!</h2>
+	<h2><a name="signup" class="anchor"></a>Get a Wind Catcher for free!</h2>
     <p>First backer on Kickstarter will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address
@@ -98,7 +98,7 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_caeb44229d6906a0c5f06f2db_d31a2582e4" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="Notify me" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
