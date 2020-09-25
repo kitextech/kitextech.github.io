@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/aokholm/.pyenv/versions/3.7.5/bin/python"
+}
