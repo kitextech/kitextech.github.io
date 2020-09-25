@@ -16,7 +16,7 @@ title: {{ site.name }}
 <div style="height: 50px;"></div>
 
 ## How much power do you need?
-Below you can see how much power a Wind Catcher will produce exactly where you want to use it! These are averages for an entire year - day and night.
+Below you can see how much power a Wind Catcher will produce exactly where you want to use it! These are averages for an entire year - day and night. The wind map is specifically made for Wind Catcher using the turbine performance data combined with wind data from [Global Wind Atlas](https://globalwindatlas.info).
 
 ![Energy Scale](/graphics/EnergyScale.png)
 
@@ -50,6 +50,24 @@ Connect the Wind Catcher wind turbine to a Solar Power input plug on your portab
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
+## Ultra Light Weight
+The Wind Catcher uses strings to hold all the forces in the structure. Inspired by kites. This means the wind turbine is 10 times more material efficient. This make shipping, handling, transportation, anchoring much easier and it's better for the enviroment!
+
+![Power Per Mass](/graphics/PowerPerMass.png)
+
+Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Futur 1.1 kW wind turbine at 7.5 m/s with 13 kg steel tower. KiteX Wind Catcher at 7.5 m/s as of test 8 September 2020. 
+
+<div style="height: 50px;"></div>
+</section>
+
+
+
+
+<!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
+
+<section class="main-content front" markdown="1">
+<div style="height: 50px;"></div>
+
 ## Setup in 12 minutes
 The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 12 minutes.
 
@@ -68,7 +86,7 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div id="mc_embed_signup">
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Get nofitied Wind Catcher Launch</h2>
+	<h2>Get a Wind Catcher for free!</h2>
     <p>First backer on Kickstarter will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address
