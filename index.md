@@ -10,6 +10,26 @@ title: {{ site.name }}
     <!-- <a href="#" class="btn">View on GitHub</a> -->
 </section>
 
+
+<!-- How to use &origin=https://kitex.tech-->
+
+<section class="main-content front" markdown="1">
+<div style="height: 50px;"></div>
+
+## Power your gear
+Connect the Wind Catcher wind turbine to a Solar Power input plug on your portable generator and start charging the battery bank. The portable generator can power or charge your gear! 
+
+![Energy Scale](/graphics/HowToUse.png)
+
+
+<div style="height: 50px;"></div>
+</section>
+
+<!-- TOP VIEW SPACER -->
+
+<section class="page-middle-section" id="front2">
+</section>
+
 <!-- How much power-->
 
 <section class="main-content front" markdown="1">
@@ -30,20 +50,6 @@ Below you can see how much power a Wind Catcher will produce exactly where you w
 </section>
 
 
-<!-- How to use &origin=https://kitex.tech-->
-
-<section class="main-content front" markdown="1">
-<div style="height: 50px;"></div>
-
-## Power your gear
-Connect the Wind Catcher wind turbine to a Solar Power input plug on your portable generator and start charging the battery bank. The portable generator can power or charge your gear! 
-
-![Energy Scale](/graphics/HowToUse.png)
-
-
-<div style="height: 50px;"></div>
-</section>
-
 
 <!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
 
@@ -61,6 +67,9 @@ Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Fu
 </section>
 
 
+<section class="page-middle-section" id="front4">
+</section>
+
 
 
 <!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
@@ -77,7 +86,8 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 </section>
 
 
-
+<section class="page-middle-section" id="front5">
+</section>
 
 <!-- Begin Mailchimp Signup Form -->
 <section class="main-content front" markdown="1">

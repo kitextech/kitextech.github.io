@@ -370,9 +370,9 @@ iframe {
 
 #front2 {
   min-height: 500px;
-  background: #F0F0F0 
-  background-position: 50% 70%;
-  background-size: contain;
+  background: #F0F0F0 url(/images/TWT_blades.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
 }
@@ -390,18 +390,21 @@ iframe {
 }
 
 #front4 {
-  min-height: 300px;
-  background: #377239 url(/graphics/3DIsometricFlipWhite.svg);
+  min-height: 500px;
+  background: #F0F0F0 url(/images/twt_logos_animations.26.png);
   background-position: 50% 50%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #000;
 }
 
 #front5 {
-  min-height: 300px;
-  background: #F0F0F0;
-  padding: 3rem 3rem 2rem 3rem;
+  min-height: 500px;
+  background: #F0F0F0 url(/images/ChristofferTWTSetup.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
 }
 
 #airborne1 {
