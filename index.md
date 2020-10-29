@@ -97,7 +97,8 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2><a name="signup" class="anchor"></a>Get a Wind Catcher for free!</h2>
-    <p>First backer on Kickstarter will get thier Wind Catcher for free! The next 9 backers will get a 50% discount and can get thier Wind Catcher for just $749!</p>
+    <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. If you want to support our cause or make your own cheap green energy, buy a turbine through our up-coming crowdfunding campaign.</p>
+    <p>First backer on our crowdfunding compaing will get thier Wind Catcher for free! The next 9 backers will get the super early bird price of just $895! 55% off standard retail price.</p>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address
 </label>
