@@ -340,7 +340,7 @@ iframe {
 /* front page */
 
 #front1 {
-  background: #222 url(/images/WindCatcherSunsetBlur.jpg);
+  background: #222 url(/images/WindPowerVanLife.jpeg); /* /images/WindCatcherSunsetBlur.jpg */
   background-position: 50% 50%;
   background-size:  cover;
   background-repeat: repeat-x;
