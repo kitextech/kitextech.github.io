@@ -39,7 +39,7 @@ We have listed the most common portable power stations. Check the electric spefi
 
 ## Wind Catcher electric specifications
 
-|                        |   Wind Catcher 200                |    Wind Catcher 600                | 
+|                        | ![Wind Catcher Breeze](/images/WindCatcherBreeze.png) | ![Wind Catcher Storm](/images/WindCatcherStorm.png) | 
 |:-----------------------|:----------------------------------|:-----------------------------------|
 | **Output Voltage (V)** | 19.8 - 22.8 V                     | 42.0 - 45.6 V                      |
 | **Rated Power (W)**    | 200 W                             | 600 W                              |
