@@ -516,3 +516,8 @@ ul.photo-gallery {
   display: block;
   float: left;
 } */
+
+
+.compatibilityChart img{
+  max-width: 160px;
+}
