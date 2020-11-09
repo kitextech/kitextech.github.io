@@ -134,34 +134,3 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div style="height: 50px;"></div>
 </section>
 <!--End mc_embed_signup-->
-
-
-
-
-<!-- CONTACT  -->
-
-<section class="main-content front" markdown="1">
-
-<div style="height: 50px;"></div>
-
-## <a name="contact-link" class="anchor"></a>Contact
-
-
-```
-Primary office & test site:
-KiteX c/o DTU Link
-Frederiksborgvej 399
-4000 Roskilde
-
-Development office:
-KiteX
-Maskinvej 5
-2860 Søborg
-Denmark
-
-Company Name: KiteX IVS
-CVR: DK38029126
-Mail: info@kitex.tech
-```
-
-</section>

@@ -493,3 +493,26 @@ iframe {
   text-align: center;
   border-bottom: 0px;
 }
+
+ul.socialIcons {
+  list-style-type: none;
+  padding: 0;
+  overflow: auto;
+}
+
+.socialIcon {
+  display: block;
+  width: 50px;
+  float: left;
+}
+
+ul.photo-gallery {
+  list-style-type: none;
+  padding: 0;
+  overflow: auto;
+}
+
+/* ul.photo-gallery li {
+  display: block;
+  float: left;
+} */
