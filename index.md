@@ -3,11 +3,56 @@ layout: front
 title: {{ site.name }}
 ---
 
-<section class="page-header" id="front1">
-    <div style="height: 200px;"></div>
-    <h1 class="project-name"><a href="{{ site.github.url }}"><img src="/graphics/KiteXWhite.svg" alt="KiteX" style="width:270px"></a></h1>
-    <h2 class="project-tagline">Outdoors & Offgrid Wind Power</h2>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+	<div style="height: 40px;"></div>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">1 / 3</div> -->
+    <img src="/images/FaroesIslandsTurbine.jpg" style="width:100%">
+    <div class="text">A Wind turbine to that goes anywhere</div>
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 3</div> -->
+    <img src="/images/WindCatcherVanDroneShot.jpg" style="width:100%">
+    <div class="text">A Wind turbine that fits' in your van or truck</div>
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 3</div> -->
+    <img src="/images/WindCatcherSummerHouseFront.jpg" style="width:100%">
+    <div class="text">A Wind turbine to power your off-grid cabin</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="manualControlPlusSlide(-1)">&#10094;</a>
+  <a class="next" onclick="manualControlPlusSlide(1)">&#10095;</a>
+
+  <!-- The dots/circles -->
+  <div class="dotidot" style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+</div>
+
+
+<section class="page-middle-section" id="front1">
+    <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_Black_animatedX.svg" alt="KiteX" style="width:270px"></h1>
     <!-- <a href="#" class="btn">View on GitHub</a> -->
+</section>
+
+<div class="section-background-olive">
+<section class="page-middle-section main-content" id="front1a" markdown="1">
+Making outdoor and off-grid wind power at places and times when the sun doesn't shine!
+{: class="double-fontsize reduced-margin-bottom"}
+</section>
+</div>
+
+<section class="page-middle-section" id="front1c">
+	<div style="height: 300px;"></div>
+  <a href="/producs" class="btn">Shop Now</a>
 </section>
 
 
@@ -27,7 +72,7 @@ Connect Wind Catcher to a power input port on your portable generator and start 
 
 <!-- TOP VIEW SPACER -->
 
-<section class="page-middle-section" id="front2">
+<section class="page-middle-section main-content" id="front2">
 </section>
 
 <!-- How much power-->
@@ -72,15 +117,15 @@ Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Fu
 
 
 
-<!-- Wind Power in 12 minutes &origin=https://kitex.tech-->
+<!-- Wind Power in 16 minutes &origin=https://kitex.tech-->
 
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
-## Setup in 12 minutes
-The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 12 minutes.
+## Setup in 16 minutes
+The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 16 minutes.
 
-<iframe width="832" height="468" src="https://www.youtube.com/embed/zR_LNtCwLfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="832" height="468" src="https://www.youtube.com/embed/GCa72jYIMDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div style="height: 50px;"></div>
 </section>
@@ -99,7 +144,7 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div id="mc_embed_signup">
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Win a free WindCatcher</h2>
+	<h2>Win a free Wind Catcher</h2>
     <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. If you want to support our cause or make your own cheap green energy, buy a turbine through our up-coming crowdfunding campaign.</p>
 <p>We will make a draw between the signups and send you a free Windcatcher! Additionally the first 10 backers will get the super early bird price of just $895! Save 55% of standard retail price.</p>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>

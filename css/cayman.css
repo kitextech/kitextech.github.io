@@ -7,11 +7,11 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: #393A2D;
 }
 
 a {
-  color: #1e6bb8;
+  color: #FE6529;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -19,17 +19,17 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(254, 101, 41, 0.80);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1.0);
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(254, 101, 41, 0.88);
     border-color: rgba(255, 255, 255, 0.3); }
   .btn + .btn {
     margin-left: 1rem; }
@@ -50,27 +50,10 @@ a {
         margin-top: 1rem;
         margin-left: 0; } }
 
-.page-header {
-  color: #377239;
-  text-align: center;
-  background: #FFF url("/graphics/tiny_grid.png") repeat right top;
-  border-bottom: thick solid #377239;
-}
-  @media screen and (min-width: 64em) {
-    .page-header {
-      padding: 6rem 6rem 4rem 6rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .page-header {
-      padding: 5rem 4rem 3rem 4rem; } }
-  @media screen and (max-width: 42em) {
-    .page-header {
-      padding: 2rem 1rem 2rem 1rem; } }
-
 .page-middle-section {
-  color: #377239;
+  color: #393A2D;
   text-align: center;
   background: #F0F0F0;
-  border-bottom: thick solid #377239;
 }
   @media screen and (min-width: 64em) {
     .page-middle-section {
@@ -144,11 +127,11 @@ a {
   .main-content h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
-    color: #377239; }
+    /* font-weight: normal; */
+    color: #393A2D; }
   .main-content h1,
   .main-content h2 {
-    border-bottom: medium solid #377239;
+    border-bottom: medium solid #393A2D;
   }
 
   .main-content p {
@@ -293,7 +276,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #377239;
+    background-color: rgba(0, 0, 0, 0.85);
     overflow: hidden;
 }
 
@@ -339,38 +322,50 @@ iframe {
 
 /* front page */
 
+.section-background-black {
+  background-color: black;
+}
+
+.section-background-olive {
+  background-color: #383A2D;
+}
+
+
+.double-fontsize {
+  font-size: 2.2rem;
+}
+
+.main-content .reduced-margin-bottom {
+  margin-bottom: 0.3em;
+}
+
+
 #front1 {
-  background: #222 url(/images/WindPowerVanLife.jpeg); /* /images/WindCatcherSunsetBlur.jpg */
-  background-position: 50% 50%;
-  background-size:  cover;
-  background-repeat: repeat-x;
-  color: #FFF;
+  background: #FFF; /* url(/images/WindPowerVanLife.jpeg); /* /images/WindCatcherSunsetBlur.jpg */
+  border-bottom: thick solid #FE6529;
+
 }
 
-@media screen and (min-width: 100em) {
-  #front1 {
-    max-width: 100em;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  #front1 {
-    min-height: 500px;
-  }
-}
-
-@media screen and (min-width: 42em) {
-  #front1 {
-    min-height: 700px;
-  }
+#front1a {
+  background: #383A2D; /* url(/images/WindPowerVanLife.jpeg); /* /images/WindCatcherSunsetBlur.jpg */
+  color: white;
 }
 
 /* url(/images/windCatcherWhite.png); */
+#front1c {
+  min-height: 500px;
+  background: #F0F0F0 url(/images/FaroesIslandsTurbine.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+
 
 #front2 {
   min-height: 500px;
-  background: #F0F0F0 url(/images/WindCatcherSummerHouseFront2_2560.jpeg);
+  background: #F0F0F0 url(/images/3inOnePicture.jpg); /* WindCatcherSummerHouseFront2_2560.jpeg */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -520,4 +515,119 @@ ul.photo-gallery {
 
 .compatibilityChart img{
   max-width: 160px;
+}
+
+
+
+/* Slider */
+
+/* .slideshow-container * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px;
+  position: relative;
+  margin: auto; */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 44px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#mySlides {
+  opacity: 0;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+
+.dotidot {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
 }

@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Prototype Developments
-We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented.
+We focus on quick iterations and creating simple prototypes that ideally only introduces a few new concepts in iteration. Here the main results are presented. [Airborne FAQ](/critical-questions).
 
 ### KX4 Crosswind
 **December 13th 2019**
