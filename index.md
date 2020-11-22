@@ -25,6 +25,15 @@ title: {{ site.name }}
     <div class="text">A Wind turbine to power your off-grid cabin</div>
   </div>
 
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 3</div> -->
+    <img src="/images/WindCatcherBoatsAndSea.jpg" style="width:100%">
+    <div class="text">Charge your electric bike by the water</div>
+  </div>
+
+  
+
   <!-- Next and previous buttons -->
   <a class="prev" onclick="manualControlPlusSlide(-1)">&#10094;</a>
   <a class="next" onclick="manualControlPlusSlide(1)">&#10095;</a>
@@ -33,20 +42,25 @@ title: {{ site.name }}
   <div class="dotidot" style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span> 
     <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span> 
   </div>
+
+
 
   <div id="imageCenter">
-      <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_White_animatedX.svg" alt="KiteX" style="width:270px"></h1>
+      <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_White_animatedX.svg" alt="KiteX" style="width:20%"></h1>
   </div>
-
+  <div id="shopButtonFrontPage">  
+    <a href="/producs" class="btn">Shop Now</a>
+  </div>
 </div>
 
 
-<section class="page-middle-section" id="front1">
-    <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_Black_animatedX.svg" alt="KiteX" style="width:270px"></h1>
-    <!-- <a href="#" class="btn">View on GitHub</a> -->
-</section>
+<!-- <section class="page-middle-section" id="front1">
+    <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_Black_animatedX.svg" alt="KiteX" style="width:320px"></h1>
+    <!-- <a href="#" class="btn">View on GitHub</a> //
+</section> -->
 
 <div class="section-background-olive">
 <section class="page-middle-section main-content" id="front1a" markdown="1">
@@ -54,12 +68,6 @@ Making outdoor and off-grid wind power at places and times when the sun doesn't 
 {: class="double-fontsize reduced-margin-bottom"}
 </section>
 </div>
-
-<section class="page-middle-section" id="front1c">
-	<div style="height: 300px;"></div>
-  <a href="/producs" class="btn">Shop Now</a>
-</section>
-
 
 <!-- How to use &origin=https://kitex.tech-->
 

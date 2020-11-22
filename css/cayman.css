@@ -577,6 +577,7 @@ ul.photo-gallery {
   bottom: 44px;
   width: 100%;
   text-align: center;
+  display: none;
 }
 
 /* Number text (1/3 etc) */
@@ -642,10 +643,17 @@ ul.photo-gallery {
 #imageCenter {
   position: absolute;
   top: 50%;
-  margin-top: -100px;
-  margin-left: auto;
+  margin-top: -3%;
+  text-align: center;
+  width: 100%;
 }
 
+#shopButtonFrontPage {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
 
 .iframe-container{
   position: relative;
