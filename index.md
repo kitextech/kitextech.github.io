@@ -52,7 +52,7 @@ title: {{ site.name }}
       <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_White_animatedX.svg" alt="KiteX" style="width:20%"></h1>
   </div>
   <div id="shopButtonFrontPage">  
-    <a href="/producs" class="btn">Shop Now</a>
+    <a href="/products" class="btn">Shop Now</a>
   </div>
 </div>
 
