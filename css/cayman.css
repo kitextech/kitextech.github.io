@@ -638,6 +638,15 @@ ul.photo-gallery {
   width: 100%;
 }
 
+
+#imageCenter {
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: auto;
+}
+
+
 .iframe-container{
   position: relative;
   width: 100%;

@@ -31,10 +31,15 @@ title: {{ site.name }}
 
   <!-- The dots/circles -->
   <div class="dotidot" style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span> 
-	<span class="dot" onclick="currentSlide(2)"></span> 
-	<span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
   </div>
+
+  <div id="imageCenter">
+      <h1 class="project-name"><img src="/graphics/KITE_X_Logo_RGB_White_animatedX.svg" alt="KiteX" style="width:270px"></h1>
+  </div>
+
 </div>
 
 
