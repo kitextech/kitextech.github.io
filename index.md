@@ -96,7 +96,8 @@ Connect Wind Catcher to a power input port on your portable generator and start 
 ## How much power do you need?
 Below you can see how much power a Wind Catcher will produce exactly where you want to use it! These are averages for an entire year - day and night. The wind map is specifically made for Wind Catcher using the turbine performance data combined with wind data from [Global Wind Atlas](https://globalwindatlas.info). 
 
-![Energy Scale](/graphics/EnergyScale.png)
+![Map Color Bar legend](/graphics/MapColorBarLegend.png){: style="max-width: 640px;"}
+![Power usage examples](/graphics/PowerUsageExamples.png){: style="max-width: 640px;"}
 
 </section>
 
