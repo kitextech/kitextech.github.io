@@ -77,7 +77,7 @@ Making outdoor and off-grid wind power at places and times when the sun doesn't 
 ## Power your gear
 Connect Wind Catcher to a power input port on your portable generator and start charging the battery bank. The portable generator can power or charge your gear! Wind Catcher is compatible with most portable generators - [see compatability here](/portable-power-station-compatibility/).  
 
-![Energy Scale](/graphics/HowToUse.png)
+![How to use Wind Catcher](/graphics/HowToUse.png)
 
 
 <div style="height: 50px;"></div>
@@ -94,10 +94,11 @@ Connect Wind Catcher to a power input port on your portable generator and start 
 <div style="height: 50px;"></div>
 
 ## How much power do you need?
-Below you can see how much power a Wind Catcher will produce exactly where you want to use it! These are averages for an entire year - day and night. The wind map is specifically made for Wind Catcher using the turbine performance data combined with wind data from [Global Wind Atlas](https://globalwindatlas.info). 
+Below you can see how much power a Wind Catcher will produce exactly where you want to use it! These are averages for an entire year - day and night. The wind map is specifically made for Wind Catcher using the turbine performance data combined with wind data from [Global Wind Atlas](https://globalwindatlas.info). We also included the option to see how much energy 4 mobile solar panels would generate based on data from data from [Global Solar Atlas](https://globalsolaratlas.info). Click on the top-right corner to change layers.  
 
 ![Map Color Bar legend](/graphics/MapColorBarLegend.png){: style="max-width: 640px;"}
-![Power usage examples](/graphics/PowerUsageExamples.png){: style="max-width: 640px;"}
+[Power usage examples of electronics devices in Watts and Watt-hours](/power-usage/).  
+
 
 </section>
 
