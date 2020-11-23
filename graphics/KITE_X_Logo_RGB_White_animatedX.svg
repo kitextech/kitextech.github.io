@@ -16,7 +16,7 @@
             type="rotate"
             from="0 87.641000 87.924000"
             to="90 87.641000 87.924000"
-            begin="2s;op.end+1s"
+            begin="4s;op.end+3s"
             dur="2s"
             repeatCount="1"
             id="op"

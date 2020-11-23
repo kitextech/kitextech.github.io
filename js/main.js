@@ -14,6 +14,15 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// Thumbnail image controls
+function manualCurrentSlide(n) {
+  showSlides(slideIndex = n);
+  manualControl = true;
+  setTimeout(() => {
+    manualControl = false;
+  }, 20000);
+}
+
 function manualControlPlusSlide(n) {
   plusSlides(n);
   manualControl = true;
