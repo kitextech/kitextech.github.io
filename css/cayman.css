@@ -36,11 +36,11 @@ a {
   @media screen and (min-width: 64em) {
     .btn {
       padding: 0.75rem 1rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
+  @media screen and (max-width: 64em) { /* and (min-width: 42em) and */
     .btn {
       padding: 0.6rem 0.9rem;
       font-size: 0.9rem; } }
-  @media screen and (max-width: 42em) {
+  /* @media screen and (max-width: 42em) {
     .btn {
       display: block;
       width: 100%;
@@ -48,7 +48,7 @@ a {
       font-size: 0.9rem; }
       .btn + .btn {
         margin-top: 1rem;
-        margin-left: 0; } }
+        margin-left: 0; } } */
 
 .page-middle-section {
   color: #393A2D;
