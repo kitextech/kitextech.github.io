@@ -161,12 +161,11 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div id="mc_embed_signup">
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Win a free Wind Catcher</h2>
-    <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. If you want to support our cause or make your own cheap green energy, buy a turbine through our up-coming crowdfunding campaign.</p>
-<p>We will make a draw between the signups and send you a free Windcatcher! Additionally the first 10 backers will get the super early bird price of just $895! Save 55% of standard retail price.</p>
+	<h2>Sign up for an exclusive discount</h2>
+    <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. We will launch the product on Kickstarter in early 2020. If you sign up, then you will get access to the campaign before the crowd and get access to discounts</p>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
