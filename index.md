@@ -137,7 +137,7 @@ Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Fu
 <section class="main-content front" markdown="1">
 <div style="height: 50px;"></div>
 
-## Setup in 16 minutes
+## Setup in 15 minutes
 The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 15 minutes.
 
 <div class="iframe-container">
