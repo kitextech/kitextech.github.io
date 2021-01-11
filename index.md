@@ -52,7 +52,7 @@ title: {{ site.name }}
 
 
   <div id="shopButtonFrontPage">  
-    <a href="/products" class="btn">Shop Now</a>
+    <a href="https://www.uncoverdenmark.com/kitex/" class="btn">Reserve Now</a>
   </div>
 </div>
 
@@ -138,10 +138,10 @@ Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Fu
 <div style="height: 50px;"></div>
 
 ## Setup in 16 minutes
-The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 16 minutes.
+The Wind Catcher is degined to be very simple to setup and comes with detailed instruction. The setup can be done in just 15 minutes.
 
 <div class="iframe-container">
-<iframe width="832" height="468" src="https://www.youtube.com/embed/GCa72jYIMDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="832" height="468" src="https://www.youtube.com/embed/EGyeQlqak9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div style="height: 50px;"></div>
