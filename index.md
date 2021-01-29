@@ -5,7 +5,7 @@ title: {{ site.name }}
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
-	
+
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <!-- <div class="numbertext">1 / 3</div> -->
@@ -42,10 +42,10 @@ title: {{ site.name }}
 
   <!-- The dots/circles -->
   <div class="dotidot" style="text-align:center">
-    <span class="dot" onclick="manualCurrentSlide(1)"></span> 
-    <span class="dot" onclick="manualCurrentSlide(2)"></span> 
+    <span class="dot" onclick="manualCurrentSlide(1)"></span>
+    <span class="dot" onclick="manualCurrentSlide(2)"></span>
     <span class="dot" onclick="manualCurrentSlide(3)"></span>
-    <span class="dot" onclick="manualCurrentSlide(4)"></span> 
+    <span class="dot" onclick="manualCurrentSlide(4)"></span>
   </div>
 
 
@@ -105,7 +105,7 @@ Below you can see how much power a Wind Catcher will produce exactly where you w
 
 <!-- WIND MAP SPACER-->
 
-<section class="" id="front2"> 
+<section class="" id="front2">
 <iframe src="https://kitexmap.com" height="560px" width="100%"></iframe>
 </section>
 
@@ -121,7 +121,7 @@ The Wind Catcher uses strings to hold all the forces in the structure. Inspired 
 
 ![Power Per Mass](/graphics/PowerPerMass.png)
 
-Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Futur 1.1 kW wind turbine at 7.5 m/s with 13 kg steel tower. KiteX Wind Catcher at 7.5 m/s as of test 8 September 2020. 
+<!--Portable Solar Panel: Jackery SolarSaga 100W Solar Panel. Small Wind Turbine: Futur 1.1 kW wind turbine at 7.5 m/s with 13 kg steel tower. KiteX Wind Catcher at 7.5 m/s as of test 8 September 2020. -->
 
 <div style="height: 50px;"></div>
 </section>
