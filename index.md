@@ -52,7 +52,7 @@ title: {{ site.name }}
 
 
   <div id="shopButtonFrontPage">  
-    <a href="https://www.uncoverdenmark.com/kitex/" class="btn">Reserve Now</a>
+    <a href="https://www.kickstarter.com/projects/kitex/wind-catcher-portable-power-generating-wind-turbine?ref=cnn1o2" class="btn">Buy Now</a>
   </div>
 </div>
 
