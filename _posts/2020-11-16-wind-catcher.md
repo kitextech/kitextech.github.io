@@ -99,14 +99,15 @@ The turbine can be setup on gound that's up to 12 (deg) inclinded. The belts at 
 ## Turbine Control
 
 ### Wind Catcher Turbine Control.
-Wind catcher employs a sofisticated control architecture for it's size. In order to pack so much power per mass we need a control system that would be able to accurately control the rotational speeed of the turbine in all wind speeds. We included a build in batter into the control box such that the turbine has a place to put excess power in case of the external batteries doesn't accept any more power. The power of the wind can quickly change and the build in-battery can also absorb some of this variation. 
+Wind catcher employs a sophisticated control architecture for its size. To pack so much power per mass we need a control system that would be able to accurately control the rotational speed of the turbine at all wind speeds. We included a built-in battery into the control box such that the turbine has a place to put excess power in case of the external batteries don’t accept any more power. The power of the wind can quickly change and the built-in battery can also absorb some of this variation.
+Finally, this type of control allows us to optimize the rotational speed of the turbine for any given wind speed increasing power output significantly. It also allows us to shut down/slow down in case that the external batteries are already charged saving wear and tear.
 
-Finally this type of control allows us to optimised the rotational speed of the turbine for any given wind speed increasing power output significantly. 
+Finally, this type of control allows us to optimize the rotational speed of the turbine for any given wind speed increasing power output significantly.
 ![WindcatcherControlBox](/graphics/WindcatcherControlBox.png)
 
 
 ### SmallWindTurbineControl
-A small wind turbine does not typically come with a build in control system. Often a specialised wind turbine MPPT/PWM Controller with both a battery and dump load. Since the turbine needs a place to dump it's power if it's windy, but the batteries are already charged.
+A small wind turbine does not typically come with a built-in control system. Often a specialized wind turbine MPPT/PWM Controller with both a battery and dump load is used, since the turbine needs a place to dump its power if it's windy, but the batteries are already charged. 
 ![SmallWindTurbineControl](/graphics/SmallWindTurbineControl.png)
 
 
