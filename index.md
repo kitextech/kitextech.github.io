@@ -161,8 +161,8 @@ The Wind Catcher is degined to be very simple to setup and comes with detailed i
 <div id="mc_embed_signup">
 <form action="https://tech.us2.list-manage.com/subscribe/post?u=caeb44229d6906a0c5f06f2db&amp;id=d31a2582e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Sign up for an exclusive discount</h2>
-    <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. We will launch the product on Kickstarter in early 2021. If you sign up, then you will get access to the campaign before the crowd and get access to discounts</p>
+	<h2>Get updates</h2>
+    <p>We want to make clean power accessible to everyone - also places and at times when the sun doesn't shine! Getting the turbines production-ready and achieving economies of scale is the next big step. We just launched on Kickstarter in early 2020. If you sign up we will keep you posted on new developments.</p>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
