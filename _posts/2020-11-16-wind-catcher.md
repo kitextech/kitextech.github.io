@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 
 ## Wind Catcher
-Wind Catcher is a revolutionary new one-of-a-kind wind turbine. It is lighter, more powerful and easier to use than any other wind power system and weighs just 10kg!
+Wind Catcher is a revolutionary new one-of-a-kind wind turbine. It is lighter, more powerful and easier to use than any other wind power system and weighs just 10kg!  Interested?  [Reserve a discounted Early Bird on Kickstarter today!](https://www.kickstarter.com/projects/kitex/wind-catcher-portable-power-generating-wind-turbine?ref=cnn1o2)
 
 ![KiteX Van Shot](/images/KiteXWindCatcherVanFrog.jpeg)
  
