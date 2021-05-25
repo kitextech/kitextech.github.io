@@ -82,7 +82,7 @@ Wind catcher is build around the use of high performance composite rods manucatu
         
 
 ## Anchoring
-Anchoring the turbine is fairly important. Each anchor need to be able to withstand an pulling force in the direction of the guywire of at least 40 kg / 88 lb / 392 N if you want to used the turbine though it's entire operational range. The anchors that comes with the kit are designed for these loads if incerted to the specified depth for the given anchor. 
+Anchoring the turbine is fairly important. Each anchor need to be able to withstand an pulling force in the direction of the guywire of at least 40 kg / 88 lb / 392 N if you want to used the turbine through it's entire operational range. The anchors that comes with the kit are designed for these loads if incerted to the specified depth for the given anchor. 
 
 ### Topview
 In order to ensure that the load carry capacity of the guy wires isn't exceeded it's important to evenly space out the guy wires.
